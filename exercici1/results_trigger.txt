@@ -1,0 +1,121 @@
+2025-05-22 11:44:50,856 - Pika version 1.2.0 connecting to ('44.201.248.130', 5672)
+2025-05-22 11:44:50,856 - Socket connected: <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 57832), raddr=('44.201.248.130', 5672)>
+2025-05-22 11:44:50,857 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f041526a050>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f041526a050> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>).
+2025-05-22 11:44:50,860 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f041526a050> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>
+2025-05-22 11:44:50,860 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f041526a050> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>
+2025-05-22 11:44:50,860 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f041526a050> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>
+2025-05-22 11:44:50,860 - Created channel=1
+2025-05-22 11:44:50,879 - Found credentials from IAM Role: LabRole
+2025-05-22 11:44:50,910 - Consumidor iniciado. Esperando mensajes...
+2025-05-22 11:44:54,667 - Mensaje recibido: Mensaje 1: Eres un Tonto
+2025-05-22 11:44:54,754 - Lambda invocada
+2025-05-22 11:44:54,756 - Mensaje recibido: Mensaje 2: Nada
+2025-05-22 11:44:54,811 - Lambda invocada
+2025-05-22 11:44:54,812 - Mensaje recibido: Mensaje 3: Eres un Tonto
+2025-05-22 11:44:54,863 - Lambda invocada
+2025-05-22 11:44:54,864 - Mensaje recibido: Mensaje 4: Nada
+2025-05-22 11:44:54,981 - Lambda invocada
+2025-05-22 11:44:54,982 - Mensaje recibido: Mensaje 5: Eres un Tonto
+2025-05-22 11:44:55,032 - Lambda invocada
+2025-05-22 11:44:55,033 - Mensaje recibido: Mensaje 6: Nada
+2025-05-22 11:44:55,133 - Lambda invocada
+2025-05-22 11:44:55,134 - Mensaje recibido: Mensaje 7: Eres un Tonto
+2025-05-22 11:44:55,197 - Lambda invocada
+2025-05-22 11:44:55,197 - Mensaje recibido: Mensaje 8: Nada
+2025-05-22 11:44:55,250 - Lambda invocada
+2025-05-22 11:44:55,251 - Mensaje recibido: Mensaje 9: Eres un Tonto
+2025-05-22 11:44:55,311 - Lambda invocada
+2025-05-22 11:44:55,311 - Mensaje recibido: Mensaje 10: Nada
+2025-05-22 11:44:55,365 - Lambda invocada
+2025-05-22 11:44:55,365 - Mensaje recibido: Mensaje 11: Eres un Tonto
+2025-05-22 11:44:55,413 - Lambda invocada
+2025-05-22 11:44:55,414 - Mensaje recibido: Mensaje 12: Nada
+2025-05-22 11:44:55,467 - Lambda invocada
+2025-05-22 11:44:55,468 - Mensaje recibido: Mensaje 13: Eres un Tonto
+2025-05-22 11:44:55,532 - Lambda invocada
+2025-05-22 11:44:55,533 - Mensaje recibido: Mensaje 14: Nada
+2025-05-22 11:44:55,586 - Lambda invocada
+2025-05-22 11:44:55,586 - Mensaje recibido: Mensaje 15: Eres un Tonto
+2025-05-22 11:44:55,642 - Lambda invocada
+2025-05-22 11:44:55,643 - Mensaje recibido: Mensaje 16: Nada
+2025-05-22 11:44:55,771 - Lambda invocada
+2025-05-22 11:44:55,771 - Mensaje recibido: Mensaje 17: Eres un Tonto
+2025-05-22 11:44:55,823 - Lambda invocada
+2025-05-22 11:44:55,823 - Mensaje recibido: Mensaje 18: Nada
+2025-05-22 11:44:55,880 - Lambda invocada
+2025-05-22 11:44:55,881 - Mensaje recibido: Mensaje 19: Eres un Tonto
+2025-05-22 11:44:55,931 - Lambda invocada
+2025-05-22 11:44:55,932 - Mensaje recibido: Mensaje 20: Nada
+2025-05-22 11:44:55,987 - Lambda invocada
+2025-05-22 11:44:55,987 - Mensaje recibido: Mensaje 21: Eres un Tonto
+2025-05-22 11:44:56,049 - Lambda invocada
+2025-05-22 11:44:56,049 - Mensaje recibido: Mensaje 22: Nada
+2025-05-22 11:44:56,105 - Lambda invocada
+2025-05-22 11:44:56,106 - Mensaje recibido: Mensaje 23: Eres un Tonto
+2025-05-22 11:44:56,153 - Lambda invocada
+2025-05-22 11:44:56,154 - Mensaje recibido: Mensaje 24: Nada
+2025-05-22 11:44:56,206 - Lambda invocada
+2025-05-22 11:44:56,207 - Mensaje recibido: Mensaje 25: Eres un Tonto
+2025-05-22 11:44:56,262 - Lambda invocada
+2025-05-22 11:44:56,263 - Mensaje recibido: Mensaje 26: Nada
+2025-05-22 11:44:56,316 - Lambda invocada
+2025-05-22 11:44:56,317 - Mensaje recibido: Mensaje 27: Eres un Tonto
+2025-05-22 11:44:56,368 - Lambda invocada
+2025-05-22 11:44:56,369 - Mensaje recibido: Mensaje 28: Nada
+2025-05-22 11:44:56,424 - Lambda invocada
+2025-05-22 11:44:56,424 - Mensaje recibido: Mensaje 29: Eres un Tonto
+2025-05-22 11:44:56,474 - Lambda invocada
+2025-05-22 11:44:56,474 - Mensaje recibido: Mensaje 30: Nada
+2025-05-22 11:44:56,531 - Lambda invocada
+2025-05-22 11:44:56,532 - Mensaje recibido: Mensaje 31: Eres un Tonto
+2025-05-22 11:44:56,587 - Lambda invocada
+2025-05-22 11:44:56,588 - Mensaje recibido: Mensaje 32: Nada
+2025-05-22 11:44:56,636 - Lambda invocada
+2025-05-22 11:44:56,636 - Mensaje recibido: Mensaje 33: Eres un Tonto
+2025-05-22 11:44:56,690 - Lambda invocada
+2025-05-22 11:44:56,690 - Mensaje recibido: Mensaje 34: Nada
+2025-05-22 11:44:56,742 - Lambda invocada
+2025-05-22 11:44:56,743 - Mensaje recibido: Mensaje 35: Eres un Tonto
+2025-05-22 11:44:56,835 - Lambda invocada
+2025-05-22 11:44:56,835 - Mensaje recibido: Mensaje 36: Nada
+2025-05-22 11:44:56,891 - Lambda invocada
+2025-05-22 11:44:56,891 - Mensaje recibido: Mensaje 37: Eres un Tonto
+2025-05-22 11:44:56,946 - Lambda invocada
+2025-05-22 11:44:56,947 - Mensaje recibido: Mensaje 38: Nada
+2025-05-22 11:44:56,997 - Lambda invocada
+2025-05-22 11:44:56,997 - Mensaje recibido: Mensaje 39: Eres un Tonto
+2025-05-22 11:44:57,050 - Lambda invocada
+2025-05-22 11:44:57,050 - Mensaje recibido: Mensaje 40: Nada
+2025-05-22 11:44:57,109 - Lambda invocada
+2025-05-22 11:44:57,110 - Mensaje recibido: Mensaje 41: Eres un Tonto
+2025-05-22 11:44:57,156 - Lambda invocada
+2025-05-22 11:44:57,156 - Mensaje recibido: Mensaje 42: Nada
+2025-05-22 11:44:57,211 - Lambda invocada
+2025-05-22 11:44:57,212 - Mensaje recibido: Mensaje 43: Eres un Tonto
+2025-05-22 11:44:57,273 - Lambda invocada
+2025-05-22 11:44:57,274 - Mensaje recibido: Mensaje 44: Nada
+2025-05-22 11:44:57,329 - Lambda invocada
+2025-05-22 11:44:57,330 - Mensaje recibido: Mensaje 45: Eres un Tonto
+2025-05-22 11:44:57,378 - Lambda invocada
+2025-05-22 11:44:57,378 - Mensaje recibido: Mensaje 46: Nada
+2025-05-22 11:44:57,467 - Lambda invocada
+2025-05-22 11:44:57,467 - Mensaje recibido: Mensaje 47: Eres un Tonto
+2025-05-22 11:44:57,518 - Lambda invocada
+2025-05-22 11:44:57,519 - Mensaje recibido: Mensaje 48: Nada
+2025-05-22 11:44:57,571 - Lambda invocada
+2025-05-22 11:44:57,572 - Mensaje recibido: Mensaje 49: Eres un Tonto
+2025-05-22 11:44:57,630 - Lambda invocada
+2025-05-22 11:44:57,631 - Mensaje recibido: Mensaje 50: Nada
+2025-05-22 11:44:57,680 - Lambda invocada
+2025-05-22 11:44:57,948 - Interrumpido. Cerrando...
+2025-05-22 11:44:57,948 - Closing connection (200): Normal shutdown
+2025-05-22 11:44:57,949 - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f041526a050> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>>
+2025-05-22 11:44:57,949 - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f041526a050> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>>
+2025-05-22 11:44:57,950 - Closing connection (200): 'Normal shutdown'
+2025-05-22 11:44:57,950 - Aborting transport connection: state=1; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 57832), raddr=('44.201.248.130', 5672)>
+2025-05-22 11:44:57,950 - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 57832), raddr=('44.201.248.130', 5672)>
+2025-05-22 11:44:57,950 - Deactivating transport: state=1; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 57832), raddr=('44.201.248.130', 5672)>
+2025-05-22 11:44:57,950 - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2025-05-22 11:44:57,950 - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2025-05-22 11:44:57,950 - Closing transport socket and unlinking: state=3; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 57832), raddr=('44.201.248.130', 5672)>
+2025-05-22 11:44:57,951 - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
