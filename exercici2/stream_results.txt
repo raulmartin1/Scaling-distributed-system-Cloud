@@ -1,0 +1,1590 @@
+2025-05-22 12:05:01,374 - Pika version 1.2.0 connecting to ('44.201.248.130', 5672)
+2025-05-22 12:05:01,375 - Socket connected: <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 59224), raddr=('44.201.248.130', 5672)>
+2025-05-22 12:05:01,375 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9d8365ee50>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9d8365ee50> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>).
+2025-05-22 12:05:01,378 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9d8365ee50> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>
+2025-05-22 12:05:01,378 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9d8365ee50> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>
+2025-05-22 12:05:01,378 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9d8365ee50> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>
+2025-05-22 12:05:01,378 - Created channel=1
+2025-05-22 12:05:01,380 - Connexio a RabbitMQ establerta
+2025-05-22 12:05:01,396 - Found credentials from IAM Role: LabRole
+2025-05-22 12:05:01,428 - Client Lambda configurat
+2025-05-22 12:05:01,428 - Stream iniciat. Funcio: lambda_insult_filter, Maxfunc: 5, Cua: InsultQueue
+2025-05-22 12:05:01,429 - Missatges a la cua: 200, Instancies actives: 0
+2025-05-22 12:05:01,430 - Missatge rebut: Mensaje 0 Tonto
+2025-05-22 12:05:01,434 - Missatge procesat i confirmat
+2025-05-22 12:05:01,435 - Missatges a la cua: 199, Instancies actives: 1
+2025-05-22 12:05:01,437 - Missatge rebut: Mensaje 1 Bobo
+2025-05-22 12:05:01,438 - Missatge procesat i confirmat
+2025-05-22 12:05:01,439 - Missatges a la cua: 198, Instancies actives: 2
+2025-05-22 12:05:01,440 - Missatge rebut: Mensaje 2 Tortuga
+2025-05-22 12:05:01,441 - Missatge procesat i confirmat
+2025-05-22 12:05:01,446 - Missatges a la cua: 197, Instancies actives: 3
+2025-05-22 12:05:01,446 - Missatge rebut: Mensaje 3 Nada
+2025-05-22 12:05:01,454 - Missatge procesat i confirmat
+2025-05-22 12:05:01,455 - Missatges a la cua: 196, Instancies actives: 4
+2025-05-22 12:05:01,457 - Missatge rebut: Mensaje 4 Tonto
+2025-05-22 12:05:01,465 - Missatge procesat i confirmat
+2025-05-22 12:05:01,466 - Missatges a la cua: 195, Instancies actives: 5
+2025-05-22 12:05:01,627 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 4 Tonto'}
+2025-05-22 12:05:01,627 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:01,629 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 0 Tonto'}
+2025-05-22 12:05:01,629 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:01,634 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 1 Bobo'}
+2025-05-22 12:05:01,634 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:01,638 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 2 Tortuga'}
+2025-05-22 12:05:01,638 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:01,644 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 3 Nada'}
+2025-05-22 12:05:01,644 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:02,468 - Missatges a la cua: 195, Instancies actives: 0
+2025-05-22 12:05:02,468 - Missatge rebut: Mensaje 5 Bobo
+2025-05-22 12:05:02,469 - Missatge procesat i confirmat
+2025-05-22 12:05:02,469 - Missatges a la cua: 194, Instancies actives: 1
+2025-05-22 12:05:02,471 - Missatge rebut: Mensaje 6 Tortuga
+2025-05-22 12:05:02,471 - Missatge procesat i confirmat
+2025-05-22 12:05:02,477 - Missatges a la cua: 193, Instancies actives: 2
+2025-05-22 12:05:02,478 - Missatge rebut: Mensaje 7 Nada
+2025-05-22 12:05:02,479 - Missatge procesat i confirmat
+2025-05-22 12:05:02,485 - Missatges a la cua: 192, Instancies actives: 3
+2025-05-22 12:05:02,490 - Missatge rebut: Mensaje 8 Tonto
+2025-05-22 12:05:02,491 - Missatge procesat i confirmat
+2025-05-22 12:05:02,497 - Missatges a la cua: 191, Instancies actives: 4
+2025-05-22 12:05:02,502 - Missatge rebut: Mensaje 9 Bobo
+2025-05-22 12:05:02,503 - Missatge procesat i confirmat
+2025-05-22 12:05:02,504 - Missatges a la cua: 190, Instancies actives: 5
+2025-05-22 12:05:02,648 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 6 Tortuga'}
+2025-05-22 12:05:02,648 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:02,649 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 5 Bobo'}
+2025-05-22 12:05:02,649 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:02,655 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 7 Nada'}
+2025-05-22 12:05:02,655 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:02,660 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 9 Bobo'}
+2025-05-22 12:05:02,660 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:02,662 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 8 Tonto'}
+2025-05-22 12:05:02,662 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:03,505 - Missatges a la cua: 190, Instancies actives: 0
+2025-05-22 12:05:03,505 - Missatge rebut: Mensaje 10 Tortuga
+2025-05-22 12:05:03,506 - Missatge procesat i confirmat
+2025-05-22 12:05:03,507 - Missatges a la cua: 189, Instancies actives: 1
+2025-05-22 12:05:03,508 - Missatge rebut: Mensaje 11 Nada
+2025-05-22 12:05:03,509 - Missatge procesat i confirmat
+2025-05-22 12:05:03,517 - Missatges a la cua: 188, Instancies actives: 2
+2025-05-22 12:05:03,518 - Missatge rebut: Mensaje 12 Tonto
+2025-05-22 12:05:03,519 - Missatge procesat i confirmat
+2025-05-22 12:05:03,520 - Missatges a la cua: 187, Instancies actives: 3
+2025-05-22 12:05:03,520 - Missatge rebut: Mensaje 13 Bobo
+2025-05-22 12:05:03,520 - Missatge procesat i confirmat
+2025-05-22 12:05:03,522 - Missatges a la cua: 186, Instancies actives: 4
+2025-05-22 12:05:03,525 - Missatge rebut: Mensaje 14 Tortuga
+2025-05-22 12:05:03,529 - Missatge procesat i confirmat
+2025-05-22 12:05:03,537 - Missatges a la cua: 185, Instancies actives: 5
+2025-05-22 12:05:03,676 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 14 Tortuga'}
+2025-05-22 12:05:03,676 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:03,680 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 12 Tonto'}
+2025-05-22 12:05:03,681 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:03,684 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 13 Bobo'}
+2025-05-22 12:05:03,685 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:03,685 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 11 Nada'}
+2025-05-22 12:05:03,685 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:03,779 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 10 Tortuga'}
+2025-05-22 12:05:03,779 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:04,539 - Missatges a la cua: 185, Instancies actives: 0
+2025-05-22 12:05:04,539 - Missatge rebut: Mensaje 15 Nada
+2025-05-22 12:05:04,539 - Missatge procesat i confirmat
+2025-05-22 12:05:04,541 - Missatges a la cua: 184, Instancies actives: 1
+2025-05-22 12:05:04,542 - Missatge rebut: Mensaje 16 Tonto
+2025-05-22 12:05:04,546 - Missatge procesat i confirmat
+2025-05-22 12:05:04,549 - Missatges a la cua: 183, Instancies actives: 2
+2025-05-22 12:05:04,550 - Missatge rebut: Mensaje 17 Bobo
+2025-05-22 12:05:04,552 - Missatge procesat i confirmat
+2025-05-22 12:05:04,552 - Missatges a la cua: 182, Instancies actives: 3
+2025-05-22 12:05:04,554 - Missatge rebut: Mensaje 18 Tortuga
+2025-05-22 12:05:04,566 - Missatge procesat i confirmat
+2025-05-22 12:05:04,566 - Missatges a la cua: 181, Instancies actives: 4
+2025-05-22 12:05:04,567 - Missatge rebut: Mensaje 19 Nada
+2025-05-22 12:05:04,573 - Missatge procesat i confirmat
+2025-05-22 12:05:04,577 - Missatges a la cua: 180, Instancies actives: 5
+2025-05-22 12:05:04,715 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 16 Tonto'}
+2025-05-22 12:05:04,715 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:04,722 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 17 Bobo'}
+2025-05-22 12:05:04,722 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:04,723 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 15 Nada'}
+2025-05-22 12:05:04,723 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:04,726 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 19 Nada'}
+2025-05-22 12:05:04,726 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:04,727 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 18 Tortuga'}
+2025-05-22 12:05:04,728 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:05,578 - Missatges a la cua: 180, Instancies actives: 0
+2025-05-22 12:05:05,578 - Missatge rebut: Mensaje 20 Tonto
+2025-05-22 12:05:05,579 - Missatge procesat i confirmat
+2025-05-22 12:05:05,581 - Missatges a la cua: 179, Instancies actives: 1
+2025-05-22 12:05:05,581 - Missatge rebut: Mensaje 21 Bobo
+2025-05-22 12:05:05,585 - Missatge procesat i confirmat
+2025-05-22 12:05:05,586 - Missatges a la cua: 178, Instancies actives: 2
+2025-05-22 12:05:05,587 - Missatge rebut: Mensaje 22 Tortuga
+2025-05-22 12:05:05,588 - Missatge procesat i confirmat
+2025-05-22 12:05:05,588 - Missatges a la cua: 177, Instancies actives: 3
+2025-05-22 12:05:05,596 - Missatge rebut: Mensaje 23 Nada
+2025-05-22 12:05:05,597 - Missatge procesat i confirmat
+2025-05-22 12:05:05,601 - Missatges a la cua: 176, Instancies actives: 4
+2025-05-22 12:05:05,602 - Missatge rebut: Mensaje 24 Tonto
+2025-05-22 12:05:05,605 - Missatge procesat i confirmat
+2025-05-22 12:05:05,606 - Missatges a la cua: 175, Instancies actives: 5
+2025-05-22 12:05:05,759 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 23 Nada'}
+2025-05-22 12:05:05,759 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:05,760 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 22 Tortuga'}
+2025-05-22 12:05:05,760 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:05,767 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 24 Tonto'}
+2025-05-22 12:05:05,767 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:05,770 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 21 Bobo'}
+2025-05-22 12:05:05,770 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:05,777 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 20 Tonto'}
+2025-05-22 12:05:05,777 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:06,607 - Missatges a la cua: 175, Instancies actives: 0
+2025-05-22 12:05:06,607 - Missatge rebut: Mensaje 25 Bobo
+2025-05-22 12:05:06,609 - Missatge procesat i confirmat
+2025-05-22 12:05:06,610 - Missatges a la cua: 174, Instancies actives: 1
+2025-05-22 12:05:06,610 - Missatge rebut: Mensaje 26 Tortuga
+2025-05-22 12:05:06,614 - Missatge procesat i confirmat
+2025-05-22 12:05:06,614 - Missatges a la cua: 173, Instancies actives: 2
+2025-05-22 12:05:06,618 - Missatge rebut: Mensaje 27 Nada
+2025-05-22 12:05:06,619 - Missatge procesat i confirmat
+2025-05-22 12:05:06,621 - Missatges a la cua: 172, Instancies actives: 3
+2025-05-22 12:05:06,625 - Missatge rebut: Mensaje 28 Tonto
+2025-05-22 12:05:06,626 - Missatge procesat i confirmat
+2025-05-22 12:05:06,627 - Missatges a la cua: 171, Instancies actives: 4
+2025-05-22 12:05:06,628 - Missatge rebut: Mensaje 29 Bobo
+2025-05-22 12:05:06,630 - Missatge procesat i confirmat
+2025-05-22 12:05:06,631 - Missatges a la cua: 170, Instancies actives: 5
+2025-05-22 12:05:06,788 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 27 Nada'}
+2025-05-22 12:05:06,788 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:06,789 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 25 Bobo'}
+2025-05-22 12:05:06,789 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:06,790 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 26 Tortuga'}
+2025-05-22 12:05:06,790 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:06,800 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 28 Tonto'}
+2025-05-22 12:05:06,800 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:06,802 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 29 Bobo'}
+2025-05-22 12:05:06,802 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:07,646 - Missatges a la cua: 270, Instancies actives: 0
+2025-05-22 12:05:07,647 - Missatge rebut: Mensaje 30 Tortuga
+2025-05-22 12:05:07,647 - Missatge procesat i confirmat
+2025-05-22 12:05:07,649 - Missatges a la cua: 269, Instancies actives: 1
+2025-05-22 12:05:07,649 - Missatge rebut: Mensaje 31 Nada
+2025-05-22 12:05:07,654 - Missatge procesat i confirmat
+2025-05-22 12:05:07,654 - Missatges a la cua: 268, Instancies actives: 2
+2025-05-22 12:05:07,657 - Missatge rebut: Mensaje 32 Tonto
+2025-05-22 12:05:07,658 - Missatge procesat i confirmat
+2025-05-22 12:05:07,658 - Missatges a la cua: 267, Instancies actives: 3
+2025-05-22 12:05:07,659 - Missatge rebut: Mensaje 33 Bobo
+2025-05-22 12:05:07,661 - Missatge procesat i confirmat
+2025-05-22 12:05:07,663 - Missatges a la cua: 266, Instancies actives: 4
+2025-05-22 12:05:07,669 - Missatge rebut: Mensaje 34 Tortuga
+2025-05-22 12:05:07,673 - Missatge procesat i confirmat
+2025-05-22 12:05:07,677 - Missatges a la cua: 265, Instancies actives: 5
+2025-05-22 12:05:07,818 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 31 Nada'}
+2025-05-22 12:05:07,818 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:07,825 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 30 Tortuga'}
+2025-05-22 12:05:07,825 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:07,827 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 32 Tonto'}
+2025-05-22 12:05:07,827 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:07,830 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 34 Tortuga'}
+2025-05-22 12:05:07,830 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:07,834 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 33 Bobo'}
+2025-05-22 12:05:07,834 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:08,678 - Missatges a la cua: 265, Instancies actives: 0
+2025-05-22 12:05:08,679 - Missatge rebut: Mensaje 35 Nada
+2025-05-22 12:05:08,679 - Missatge procesat i confirmat
+2025-05-22 12:05:08,681 - Missatges a la cua: 264, Instancies actives: 1
+2025-05-22 12:05:08,685 - Missatge rebut: Mensaje 36 Tonto
+2025-05-22 12:05:08,685 - Missatge procesat i confirmat
+2025-05-22 12:05:08,687 - Missatges a la cua: 263, Instancies actives: 2
+2025-05-22 12:05:08,687 - Missatge rebut: Mensaje 37 Bobo
+2025-05-22 12:05:08,687 - Missatge procesat i confirmat
+2025-05-22 12:05:08,689 - Missatges a la cua: 262, Instancies actives: 3
+2025-05-22 12:05:08,689 - Missatge rebut: Mensaje 38 Tortuga
+2025-05-22 12:05:08,690 - Missatge procesat i confirmat
+2025-05-22 12:05:08,691 - Missatges a la cua: 261, Instancies actives: 4
+2025-05-22 12:05:08,692 - Missatge rebut: Mensaje 39 Nada
+2025-05-22 12:05:08,692 - Missatge procesat i confirmat
+2025-05-22 12:05:08,693 - Missatges a la cua: 260, Instancies actives: 5
+2025-05-22 12:05:08,858 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 36 Tonto'}
+2025-05-22 12:05:08,858 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:08,861 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 39 Nada'}
+2025-05-22 12:05:08,861 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:08,866 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 37 Bobo'}
+2025-05-22 12:05:08,866 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:08,867 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 38 Tortuga'}
+2025-05-22 12:05:08,867 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:08,868 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 35 Nada'}
+2025-05-22 12:05:08,868 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:09,695 - Missatges a la cua: 260, Instancies actives: 0
+2025-05-22 12:05:09,695 - Missatge rebut: Mensaje 40 Tonto
+2025-05-22 12:05:09,696 - Missatge procesat i confirmat
+2025-05-22 12:05:09,697 - Missatges a la cua: 259, Instancies actives: 1
+2025-05-22 12:05:09,698 - Missatge rebut: Mensaje 41 Bobo
+2025-05-22 12:05:09,699 - Missatge procesat i confirmat
+2025-05-22 12:05:09,700 - Missatges a la cua: 258, Instancies actives: 2
+2025-05-22 12:05:09,701 - Missatge rebut: Mensaje 42 Tortuga
+2025-05-22 12:05:09,701 - Missatge procesat i confirmat
+2025-05-22 12:05:09,710 - Missatges a la cua: 257, Instancies actives: 3
+2025-05-22 12:05:09,711 - Missatge rebut: Mensaje 43 Nada
+2025-05-22 12:05:09,712 - Missatge procesat i confirmat
+2025-05-22 12:05:09,713 - Missatges a la cua: 256, Instancies actives: 4
+2025-05-22 12:05:09,717 - Missatge rebut: Mensaje 44 Tonto
+2025-05-22 12:05:09,717 - Missatge procesat i confirmat
+2025-05-22 12:05:09,722 - Missatges a la cua: 255, Instancies actives: 5
+2025-05-22 12:05:09,861 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 43 Nada'}
+2025-05-22 12:05:09,862 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:09,871 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 40 Tonto'}
+2025-05-22 12:05:09,872 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:09,872 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 41 Bobo'}
+2025-05-22 12:05:09,872 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:09,882 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 42 Tortuga'}
+2025-05-22 12:05:09,883 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:09,914 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 44 Tonto'}
+2025-05-22 12:05:09,914 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:10,723 - Missatges a la cua: 255, Instancies actives: 0
+2025-05-22 12:05:10,723 - Missatge rebut: Mensaje 45 Bobo
+2025-05-22 12:05:10,724 - Missatge procesat i confirmat
+2025-05-22 12:05:10,725 - Missatges a la cua: 254, Instancies actives: 1
+2025-05-22 12:05:10,726 - Missatge rebut: Mensaje 46 Tortuga
+2025-05-22 12:05:10,728 - Missatge procesat i confirmat
+2025-05-22 12:05:10,738 - Missatges a la cua: 253, Instancies actives: 2
+2025-05-22 12:05:10,738 - Missatge rebut: Mensaje 47 Nada
+2025-05-22 12:05:10,738 - Missatge procesat i confirmat
+2025-05-22 12:05:10,739 - Missatges a la cua: 252, Instancies actives: 3
+2025-05-22 12:05:10,740 - Missatge rebut: Mensaje 48 Tonto
+2025-05-22 12:05:10,741 - Missatge procesat i confirmat
+2025-05-22 12:05:10,742 - Missatges a la cua: 251, Instancies actives: 4
+2025-05-22 12:05:10,745 - Missatge rebut: Mensaje 49 Bobo
+2025-05-22 12:05:10,747 - Missatge procesat i confirmat
+2025-05-22 12:05:10,747 - Missatges a la cua: 250, Instancies actives: 5
+2025-05-22 12:05:10,898 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 45 Bobo'}
+2025-05-22 12:05:10,898 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:10,899 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 49 Bobo'}
+2025-05-22 12:05:10,899 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:10,899 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 48 Tonto'}
+2025-05-22 12:05:10,899 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:10,905 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 46 Tortuga'}
+2025-05-22 12:05:10,905 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:10,917 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 47 Nada'}
+2025-05-22 12:05:10,917 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:11,748 - Missatges a la cua: 250, Instancies actives: 0
+2025-05-22 12:05:11,749 - Missatge rebut: Mensaje 50 Tortuga
+2025-05-22 12:05:11,749 - Missatge procesat i confirmat
+2025-05-22 12:05:11,757 - Missatges a la cua: 249, Instancies actives: 1
+2025-05-22 12:05:11,758 - Missatge rebut: Mensaje 51 Nada
+2025-05-22 12:05:11,760 - Missatge procesat i confirmat
+2025-05-22 12:05:11,765 - Missatges a la cua: 248, Instancies actives: 2
+2025-05-22 12:05:11,766 - Missatge rebut: Mensaje 52 Tonto
+2025-05-22 12:05:11,767 - Missatge procesat i confirmat
+2025-05-22 12:05:11,768 - Missatges a la cua: 247, Instancies actives: 3
+2025-05-22 12:05:11,768 - Missatge rebut: Mensaje 53 Bobo
+2025-05-22 12:05:11,777 - Missatge procesat i confirmat
+2025-05-22 12:05:11,781 - Missatges a la cua: 246, Instancies actives: 4
+2025-05-22 12:05:11,782 - Missatge rebut: Mensaje 54 Tortuga
+2025-05-22 12:05:11,783 - Missatge procesat i confirmat
+2025-05-22 12:05:11,790 - Missatges a la cua: 245, Instancies actives: 5
+2025-05-22 12:05:11,927 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 51 Nada'}
+2025-05-22 12:05:11,927 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:11,928 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 50 Tortuga'}
+2025-05-22 12:05:11,928 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:11,934 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 53 Bobo'}
+2025-05-22 12:05:11,934 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:11,935 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 52 Tonto'}
+2025-05-22 12:05:11,935 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:11,936 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 54 Tortuga'}
+2025-05-22 12:05:11,936 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:12,791 - Missatges a la cua: 245, Instancies actives: 0
+2025-05-22 12:05:12,792 - Missatge rebut: Mensaje 55 Nada
+2025-05-22 12:05:12,792 - Missatge procesat i confirmat
+2025-05-22 12:05:12,794 - Missatges a la cua: 244, Instancies actives: 1
+2025-05-22 12:05:12,795 - Missatge rebut: Mensaje 56 Tonto
+2025-05-22 12:05:12,795 - Missatge procesat i confirmat
+2025-05-22 12:05:12,797 - Missatges a la cua: 243, Instancies actives: 2
+2025-05-22 12:05:12,798 - Missatge rebut: Mensaje 57 Bobo
+2025-05-22 12:05:12,799 - Missatge procesat i confirmat
+2025-05-22 12:05:12,800 - Missatges a la cua: 242, Instancies actives: 3
+2025-05-22 12:05:12,809 - Missatge rebut: Mensaje 58 Tortuga
+2025-05-22 12:05:12,811 - Missatge procesat i confirmat
+2025-05-22 12:05:12,812 - Missatges a la cua: 241, Instancies actives: 4
+2025-05-22 12:05:12,822 - Missatge rebut: Mensaje 59 Nada
+2025-05-22 12:05:12,822 - Missatge procesat i confirmat
+2025-05-22 12:05:12,824 - Missatges a la cua: 240, Instancies actives: 5
+2025-05-22 12:05:12,973 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 58 Tortuga'}
+2025-05-22 12:05:12,973 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:12,975 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 59 Nada'}
+2025-05-22 12:05:12,975 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:12,977 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 56 Tonto'}
+2025-05-22 12:05:12,977 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:12,979 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 55 Nada'}
+2025-05-22 12:05:12,979 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:12,982 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 57 Bobo'}
+2025-05-22 12:05:12,982 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:13,825 - Missatges a la cua: 240, Instancies actives: 0
+2025-05-22 12:05:13,825 - Missatge rebut: Mensaje 60 Tonto
+2025-05-22 12:05:13,826 - Missatge procesat i confirmat
+2025-05-22 12:05:13,826 - Missatges a la cua: 239, Instancies actives: 1
+2025-05-22 12:05:13,827 - Missatge rebut: Mensaje 61 Bobo
+2025-05-22 12:05:13,828 - Missatge procesat i confirmat
+2025-05-22 12:05:13,829 - Missatges a la cua: 238, Instancies actives: 2
+2025-05-22 12:05:13,830 - Missatge rebut: Mensaje 62 Tortuga
+2025-05-22 12:05:13,830 - Missatge procesat i confirmat
+2025-05-22 12:05:13,837 - Missatges a la cua: 237, Instancies actives: 3
+2025-05-22 12:05:13,844 - Missatge rebut: Mensaje 63 Nada
+2025-05-22 12:05:13,846 - Missatge procesat i confirmat
+2025-05-22 12:05:13,846 - Missatges a la cua: 236, Instancies actives: 4
+2025-05-22 12:05:13,852 - Missatge rebut: Mensaje 64 Tonto
+2025-05-22 12:05:13,853 - Missatge procesat i confirmat
+2025-05-22 12:05:13,854 - Missatges a la cua: 235, Instancies actives: 5
+2025-05-22 12:05:14,005 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 64 Tonto'}
+2025-05-22 12:05:14,005 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:14,015 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 63 Nada'}
+2025-05-22 12:05:14,015 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:14,021 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 60 Tonto'}
+2025-05-22 12:05:14,021 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:14,027 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 61 Bobo'}
+2025-05-22 12:05:14,028 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:14,070 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 62 Tortuga'}
+2025-05-22 12:05:14,070 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:14,855 - Missatges a la cua: 235, Instancies actives: 0
+2025-05-22 12:05:14,857 - Missatge rebut: Mensaje 65 Bobo
+2025-05-22 12:05:14,858 - Missatge procesat i confirmat
+2025-05-22 12:05:14,859 - Missatges a la cua: 234, Instancies actives: 1
+2025-05-22 12:05:14,859 - Missatge rebut: Mensaje 66 Tortuga
+2025-05-22 12:05:14,861 - Missatge procesat i confirmat
+2025-05-22 12:05:14,865 - Missatges a la cua: 233, Instancies actives: 2
+2025-05-22 12:05:14,869 - Missatge rebut: Mensaje 67 Nada
+2025-05-22 12:05:14,870 - Missatge procesat i confirmat
+2025-05-22 12:05:14,870 - Missatges a la cua: 232, Instancies actives: 3
+2025-05-22 12:05:14,873 - Missatge rebut: Mensaje 68 Tonto
+2025-05-22 12:05:14,874 - Missatge procesat i confirmat
+2025-05-22 12:05:14,881 - Missatges a la cua: 231, Instancies actives: 4
+2025-05-22 12:05:14,884 - Missatge rebut: Mensaje 69 Bobo
+2025-05-22 12:05:14,885 - Missatge procesat i confirmat
+2025-05-22 12:05:14,885 - Missatges a la cua: 230, Instancies actives: 5
+2025-05-22 12:05:15,028 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 68 Tonto'}
+2025-05-22 12:05:15,029 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:15,034 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 69 Bobo'}
+2025-05-22 12:05:15,034 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:15,035 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 66 Tortuga'}
+2025-05-22 12:05:15,035 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:15,038 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 65 Bobo'}
+2025-05-22 12:05:15,038 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:15,039 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 67 Nada'}
+2025-05-22 12:05:15,039 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:15,886 - Missatges a la cua: 230, Instancies actives: 0
+2025-05-22 12:05:15,887 - Missatge rebut: Mensaje 70 Tortuga
+2025-05-22 12:05:15,888 - Missatge procesat i confirmat
+2025-05-22 12:05:15,889 - Missatges a la cua: 229, Instancies actives: 1
+2025-05-22 12:05:15,890 - Missatge rebut: Mensaje 71 Nada
+2025-05-22 12:05:15,890 - Missatge procesat i confirmat
+2025-05-22 12:05:15,895 - Missatges a la cua: 228, Instancies actives: 2
+2025-05-22 12:05:15,895 - Missatge rebut: Mensaje 72 Tonto
+2025-05-22 12:05:15,895 - Missatge procesat i confirmat
+2025-05-22 12:05:15,897 - Missatges a la cua: 227, Instancies actives: 3
+2025-05-22 12:05:15,899 - Missatge rebut: Mensaje 73 Bobo
+2025-05-22 12:05:15,900 - Missatge procesat i confirmat
+2025-05-22 12:05:15,900 - Missatges a la cua: 226, Instancies actives: 4
+2025-05-22 12:05:15,909 - Missatge rebut: Mensaje 74 Tortuga
+2025-05-22 12:05:15,910 - Missatge procesat i confirmat
+2025-05-22 12:05:15,918 - Missatges a la cua: 225, Instancies actives: 5
+2025-05-22 12:05:16,059 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 70 Tortuga'}
+2025-05-22 12:05:16,060 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:16,060 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 72 Tonto'}
+2025-05-22 12:05:16,060 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:16,071 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 71 Nada'}
+2025-05-22 12:05:16,073 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:16,073 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 74 Tortuga'}
+2025-05-22 12:05:16,073 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:16,088 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 73 Bobo'}
+2025-05-22 12:05:16,088 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:16,919 - Missatges a la cua: 225, Instancies actives: 0
+2025-05-22 12:05:16,920 - Missatge rebut: Mensaje 75 Nada
+2025-05-22 12:05:16,921 - Missatge procesat i confirmat
+2025-05-22 12:05:16,922 - Missatges a la cua: 224, Instancies actives: 1
+2025-05-22 12:05:16,925 - Missatge rebut: Mensaje 76 Tonto
+2025-05-22 12:05:16,926 - Missatge procesat i confirmat
+2025-05-22 12:05:16,927 - Missatges a la cua: 223, Instancies actives: 2
+2025-05-22 12:05:16,927 - Missatge rebut: Mensaje 77 Bobo
+2025-05-22 12:05:16,928 - Missatge procesat i confirmat
+2025-05-22 12:05:16,933 - Missatges a la cua: 222, Instancies actives: 3
+2025-05-22 12:05:16,934 - Missatge rebut: Mensaje 78 Tortuga
+2025-05-22 12:05:16,934 - Missatge procesat i confirmat
+2025-05-22 12:05:16,937 - Missatges a la cua: 221, Instancies actives: 4
+2025-05-22 12:05:16,941 - Missatge rebut: Mensaje 79 Nada
+2025-05-22 12:05:16,942 - Missatge procesat i confirmat
+2025-05-22 12:05:16,949 - Missatges a la cua: 220, Instancies actives: 5
+2025-05-22 12:05:17,093 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 79 Nada'}
+2025-05-22 12:05:17,093 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:17,099 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 75 Nada'}
+2025-05-22 12:05:17,100 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 77 Bobo'}
+2025-05-22 12:05:17,100 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 76 Tonto'}
+2025-05-22 12:05:17,101 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 78 Tortuga'}
+2025-05-22 12:05:17,100 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:17,101 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:17,101 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:17,101 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:17,950 - Missatges a la cua: 220, Instancies actives: 0
+2025-05-22 12:05:17,951 - Missatge rebut: Mensaje 80 Tonto
+2025-05-22 12:05:17,951 - Missatge procesat i confirmat
+2025-05-22 12:05:17,952 - Missatges a la cua: 219, Instancies actives: 1
+2025-05-22 12:05:17,953 - Missatge rebut: Mensaje 81 Bobo
+2025-05-22 12:05:17,954 - Missatge procesat i confirmat
+2025-05-22 12:05:17,954 - Missatges a la cua: 218, Instancies actives: 2
+2025-05-22 12:05:17,955 - Missatge rebut: Mensaje 82 Tortuga
+2025-05-22 12:05:17,955 - Missatge procesat i confirmat
+2025-05-22 12:05:17,961 - Missatges a la cua: 217, Instancies actives: 3
+2025-05-22 12:05:17,962 - Missatge rebut: Mensaje 83 Nada
+2025-05-22 12:05:17,963 - Missatge procesat i confirmat
+2025-05-22 12:05:17,965 - Missatges a la cua: 216, Instancies actives: 4
+2025-05-22 12:05:17,969 - Missatge rebut: Mensaje 84 Tonto
+2025-05-22 12:05:17,971 - Missatge procesat i confirmat
+2025-05-22 12:05:17,973 - Missatges a la cua: 215, Instancies actives: 5
+2025-05-22 12:05:18,116 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 81 Bobo'}
+2025-05-22 12:05:18,116 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:18,122 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 84 Tonto'}
+2025-05-22 12:05:18,122 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:18,131 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 82 Tortuga'}
+2025-05-22 12:05:18,132 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:18,132 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 80 Tonto'}
+2025-05-22 12:05:18,132 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:18,133 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 83 Nada'}
+2025-05-22 12:05:18,133 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:18,975 - Missatges a la cua: 215, Instancies actives: 0
+2025-05-22 12:05:18,975 - Missatge rebut: Mensaje 85 Bobo
+2025-05-22 12:05:18,976 - Missatge procesat i confirmat
+2025-05-22 12:05:18,977 - Missatges a la cua: 214, Instancies actives: 1
+2025-05-22 12:05:18,981 - Missatge rebut: Mensaje 86 Tortuga
+2025-05-22 12:05:18,982 - Missatge procesat i confirmat
+2025-05-22 12:05:18,982 - Missatges a la cua: 213, Instancies actives: 2
+2025-05-22 12:05:18,984 - Missatge rebut: Mensaje 87 Nada
+2025-05-22 12:05:18,985 - Missatge procesat i confirmat
+2025-05-22 12:05:18,985 - Missatges a la cua: 212, Instancies actives: 3
+2025-05-22 12:05:18,989 - Missatge rebut: Mensaje 88 Tonto
+2025-05-22 12:05:18,990 - Missatge procesat i confirmat
+2025-05-22 12:05:18,991 - Missatges a la cua: 211, Instancies actives: 4
+2025-05-22 12:05:18,992 - Missatge rebut: Mensaje 89 Bobo
+2025-05-22 12:05:18,993 - Missatge procesat i confirmat
+2025-05-22 12:05:18,997 - Missatges a la cua: 210, Instancies actives: 5
+2025-05-22 12:05:19,147 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 85 Bobo'}
+2025-05-22 12:05:19,147 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:19,153 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 87 Nada'}
+2025-05-22 12:05:19,153 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:19,154 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 86 Tortuga'}
+2025-05-22 12:05:19,154 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:19,157 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 88 Tonto'}
+2025-05-22 12:05:19,157 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:19,165 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 89 Bobo'}
+2025-05-22 12:05:19,165 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:19,999 - Missatges a la cua: 210, Instancies actives: 0
+2025-05-22 12:05:20,000 - Missatge rebut: Mensaje 90 Tortuga
+2025-05-22 12:05:20,000 - Missatge procesat i confirmat
+2025-05-22 12:05:20,001 - Missatges a la cua: 209, Instancies actives: 1
+2025-05-22 12:05:20,002 - Missatge rebut: Mensaje 91 Nada
+2025-05-22 12:05:20,003 - Missatge procesat i confirmat
+2025-05-22 12:05:20,009 - Missatges a la cua: 208, Instancies actives: 2
+2025-05-22 12:05:20,011 - Missatge rebut: Mensaje 92 Tonto
+2025-05-22 12:05:20,014 - Missatge procesat i confirmat
+2025-05-22 12:05:20,018 - Missatges a la cua: 207, Instancies actives: 3
+2025-05-22 12:05:20,021 - Missatge rebut: Mensaje 93 Bobo
+2025-05-22 12:05:20,023 - Missatge procesat i confirmat
+2025-05-22 12:05:20,029 - Missatges a la cua: 206, Instancies actives: 4
+2025-05-22 12:05:20,031 - Missatge rebut: Mensaje 94 Tortuga
+2025-05-22 12:05:20,032 - Missatge procesat i confirmat
+2025-05-22 12:05:20,036 - Missatges a la cua: 205, Instancies actives: 5
+2025-05-22 12:05:20,183 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 90 Tortuga'}
+2025-05-22 12:05:20,183 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:20,184 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 92 Tonto'}
+2025-05-22 12:05:20,184 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:20,188 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 93 Bobo'}
+2025-05-22 12:05:20,188 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:20,193 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 94 Tortuga'}
+2025-05-22 12:05:20,193 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:20,196 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 91 Nada'}
+2025-05-22 12:05:20,196 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:21,037 - Missatges a la cua: 205, Instancies actives: 0
+2025-05-22 12:05:21,037 - Missatge rebut: Mensaje 95 Nada
+2025-05-22 12:05:21,037 - Missatge procesat i confirmat
+2025-05-22 12:05:21,039 - Missatges a la cua: 204, Instancies actives: 1
+2025-05-22 12:05:21,040 - Missatge rebut: Mensaje 96 Tonto
+2025-05-22 12:05:21,042 - Missatge procesat i confirmat
+2025-05-22 12:05:21,049 - Missatges a la cua: 203, Instancies actives: 2
+2025-05-22 12:05:21,050 - Missatge rebut: Mensaje 97 Bobo
+2025-05-22 12:05:21,050 - Missatge procesat i confirmat
+2025-05-22 12:05:21,051 - Missatges a la cua: 202, Instancies actives: 3
+2025-05-22 12:05:21,052 - Missatge rebut: Mensaje 98 Tortuga
+2025-05-22 12:05:21,053 - Missatge procesat i confirmat
+2025-05-22 12:05:21,058 - Missatges a la cua: 201, Instancies actives: 4
+2025-05-22 12:05:21,062 - Missatge rebut: Mensaje 99 Nada
+2025-05-22 12:05:21,062 - Missatge procesat i confirmat
+2025-05-22 12:05:21,065 - Missatges a la cua: 200, Instancies actives: 5
+2025-05-22 12:05:21,208 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 98 Tortuga'}
+2025-05-22 12:05:21,208 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:21,210 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 96 Tonto'}
+2025-05-22 12:05:21,210 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:21,215 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 95 Nada'}
+2025-05-22 12:05:21,215 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:21,219 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 97 Bobo'}
+2025-05-22 12:05:21,219 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:21,231 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 99 Nada'}
+2025-05-22 12:05:21,231 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:22,067 - Missatges a la cua: 200, Instancies actives: 0
+2025-05-22 12:05:22,067 - Missatge rebut: Mensaje 0 Tonto
+2025-05-22 12:05:22,067 - Missatge procesat i confirmat
+2025-05-22 12:05:22,068 - Missatges a la cua: 199, Instancies actives: 1
+2025-05-22 12:05:22,069 - Missatge rebut: Mensaje 1 Bobo
+2025-05-22 12:05:22,070 - Missatge procesat i confirmat
+2025-05-22 12:05:22,070 - Missatges a la cua: 198, Instancies actives: 2
+2025-05-22 12:05:22,071 - Missatge rebut: Mensaje 2 Tortuga
+2025-05-22 12:05:22,073 - Missatge procesat i confirmat
+2025-05-22 12:05:22,081 - Missatges a la cua: 197, Instancies actives: 3
+2025-05-22 12:05:22,089 - Missatge rebut: Mensaje 3 Nada
+2025-05-22 12:05:22,090 - Missatge procesat i confirmat
+2025-05-22 12:05:22,093 - Missatges a la cua: 196, Instancies actives: 4
+2025-05-22 12:05:22,098 - Missatge rebut: Mensaje 4 Tonto
+2025-05-22 12:05:22,105 - Missatge procesat i confirmat
+2025-05-22 12:05:22,109 - Missatges a la cua: 195, Instancies actives: 5
+2025-05-22 12:05:22,236 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 2 Tortuga'}
+2025-05-22 12:05:22,236 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:22,240 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 0 Tonto'}
+2025-05-22 12:05:22,240 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:22,251 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 4 Tonto'}
+2025-05-22 12:05:22,251 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:22,255 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 1 Bobo'}
+2025-05-22 12:05:22,256 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:22,260 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 3 Nada'}
+2025-05-22 12:05:22,260 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:23,113 - Missatges a la cua: 195, Instancies actives: 0
+2025-05-22 12:05:23,113 - Missatge rebut: Mensaje 5 Bobo
+2025-05-22 12:05:23,114 - Missatge procesat i confirmat
+2025-05-22 12:05:23,125 - Missatges a la cua: 194, Instancies actives: 1
+2025-05-22 12:05:23,133 - Missatge rebut: Mensaje 6 Tortuga
+2025-05-22 12:05:23,134 - Missatge procesat i confirmat
+2025-05-22 12:05:23,137 - Missatges a la cua: 193, Instancies actives: 2
+2025-05-22 12:05:23,141 - Missatge rebut: Mensaje 7 Nada
+2025-05-22 12:05:23,143 - Missatge procesat i confirmat
+2025-05-22 12:05:23,143 - Missatges a la cua: 192, Instancies actives: 3
+2025-05-22 12:05:23,144 - Missatge rebut: Mensaje 8 Tonto
+2025-05-22 12:05:23,149 - Missatge procesat i confirmat
+2025-05-22 12:05:23,151 - Missatges a la cua: 191, Instancies actives: 4
+2025-05-22 12:05:23,151 - Missatge rebut: Mensaje 9 Bobo
+2025-05-22 12:05:23,152 - Missatge procesat i confirmat
+2025-05-22 12:05:23,157 - Missatges a la cua: 190, Instancies actives: 5
+2025-05-22 12:05:23,276 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 5 Bobo'}
+2025-05-22 12:05:23,276 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:23,301 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 6 Tortuga'}
+2025-05-22 12:05:23,301 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:23,304 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 8 Tonto'}
+2025-05-22 12:05:23,304 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:23,304 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 7 Nada'}
+2025-05-22 12:05:23,304 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:23,309 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 9 Bobo'}
+2025-05-22 12:05:23,309 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:24,158 - Missatges a la cua: 190, Instancies actives: 0
+2025-05-22 12:05:24,159 - Missatge rebut: Mensaje 10 Tortuga
+2025-05-22 12:05:24,159 - Missatge procesat i confirmat
+2025-05-22 12:05:24,161 - Missatges a la cua: 189, Instancies actives: 1
+2025-05-22 12:05:24,161 - Missatge rebut: Mensaje 11 Nada
+2025-05-22 12:05:24,161 - Missatge procesat i confirmat
+2025-05-22 12:05:24,163 - Missatges a la cua: 188, Instancies actives: 2
+2025-05-22 12:05:24,163 - Missatge rebut: Mensaje 12 Tonto
+2025-05-22 12:05:24,163 - Missatge procesat i confirmat
+2025-05-22 12:05:24,164 - Missatges a la cua: 187, Instancies actives: 3
+2025-05-22 12:05:24,173 - Missatge rebut: Mensaje 13 Bobo
+2025-05-22 12:05:24,175 - Missatge procesat i confirmat
+2025-05-22 12:05:24,176 - Missatges a la cua: 186, Instancies actives: 4
+2025-05-22 12:05:24,177 - Missatge rebut: Mensaje 14 Tortuga
+2025-05-22 12:05:24,178 - Missatge procesat i confirmat
+2025-05-22 12:05:24,179 - Missatges a la cua: 185, Instancies actives: 5
+2025-05-22 12:05:24,331 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 10 Tortuga'}
+2025-05-22 12:05:24,331 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:24,331 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 13 Bobo'}
+2025-05-22 12:05:24,331 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:24,334 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 11 Nada'}
+2025-05-22 12:05:24,334 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:24,337 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 14 Tortuga'}
+2025-05-22 12:05:24,337 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:24,342 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 12 Tonto'}
+2025-05-22 12:05:24,342 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:25,181 - Missatges a la cua: 185, Instancies actives: 0
+2025-05-22 12:05:25,181 - Missatge rebut: Mensaje 15 Nada
+2025-05-22 12:05:25,181 - Missatge procesat i confirmat
+2025-05-22 12:05:25,183 - Missatges a la cua: 184, Instancies actives: 1
+2025-05-22 12:05:25,184 - Missatge rebut: Mensaje 16 Tonto
+2025-05-22 12:05:25,184 - Missatge procesat i confirmat
+2025-05-22 12:05:25,185 - Missatges a la cua: 183, Instancies actives: 2
+2025-05-22 12:05:25,185 - Missatge rebut: Mensaje 17 Bobo
+2025-05-22 12:05:25,189 - Missatge procesat i confirmat
+2025-05-22 12:05:25,193 - Missatges a la cua: 182, Instancies actives: 3
+2025-05-22 12:05:25,194 - Missatge rebut: Mensaje 18 Tortuga
+2025-05-22 12:05:25,194 - Missatge procesat i confirmat
+2025-05-22 12:05:25,198 - Missatges a la cua: 181, Instancies actives: 4
+2025-05-22 12:05:25,199 - Missatge rebut: Mensaje 19 Nada
+2025-05-22 12:05:25,200 - Missatge procesat i confirmat
+2025-05-22 12:05:25,201 - Missatges a la cua: 180, Instancies actives: 5
+2025-05-22 12:05:25,368 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 15 Nada'}
+2025-05-22 12:05:25,368 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:25,368 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 17 Bobo'}
+2025-05-22 12:05:25,368 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:25,370 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 19 Nada'}
+2025-05-22 12:05:25,370 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:25,373 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 16 Tonto'}
+2025-05-22 12:05:25,373 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:25,374 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 18 Tortuga'}
+2025-05-22 12:05:25,374 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:26,202 - Missatges a la cua: 180, Instancies actives: 0
+2025-05-22 12:05:26,202 - Missatge rebut: Mensaje 20 Tonto
+2025-05-22 12:05:26,202 - Missatge procesat i confirmat
+2025-05-22 12:05:26,204 - Missatges a la cua: 179, Instancies actives: 1
+2025-05-22 12:05:26,205 - Missatge rebut: Mensaje 21 Bobo
+2025-05-22 12:05:26,210 - Missatge procesat i confirmat
+2025-05-22 12:05:26,213 - Missatges a la cua: 178, Instancies actives: 2
+2025-05-22 12:05:26,215 - Missatge rebut: Mensaje 22 Tortuga
+2025-05-22 12:05:26,215 - Missatge procesat i confirmat
+2025-05-22 12:05:26,215 - Missatges a la cua: 177, Instancies actives: 3
+2025-05-22 12:05:26,216 - Missatge rebut: Mensaje 23 Nada
+2025-05-22 12:05:26,217 - Missatge procesat i confirmat
+2025-05-22 12:05:26,218 - Missatges a la cua: 176, Instancies actives: 4
+2025-05-22 12:05:26,219 - Missatge rebut: Mensaje 24 Tonto
+2025-05-22 12:05:26,225 - Missatge procesat i confirmat
+2025-05-22 12:05:26,229 - Missatges a la cua: 175, Instancies actives: 5
+2025-05-22 12:05:26,379 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 21 Bobo'}
+2025-05-22 12:05:26,379 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:26,384 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 22 Tortuga'}
+2025-05-22 12:05:26,384 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:26,387 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 24 Tonto'}
+2025-05-22 12:05:26,387 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:26,398 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 23 Nada'}
+2025-05-22 12:05:26,398 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:26,399 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 20 Tonto'}
+2025-05-22 12:05:26,399 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:27,231 - Missatges a la cua: 175, Instancies actives: 0
+2025-05-22 12:05:27,231 - Missatge rebut: Mensaje 25 Bobo
+2025-05-22 12:05:27,232 - Missatge procesat i confirmat
+2025-05-22 12:05:27,234 - Missatges a la cua: 174, Instancies actives: 1
+2025-05-22 12:05:27,237 - Missatge rebut: Mensaje 26 Tortuga
+2025-05-22 12:05:27,238 - Missatge procesat i confirmat
+2025-05-22 12:05:27,241 - Missatges a la cua: 173, Instancies actives: 2
+2025-05-22 12:05:27,245 - Missatge rebut: Mensaje 27 Nada
+2025-05-22 12:05:27,246 - Missatge procesat i confirmat
+2025-05-22 12:05:27,247 - Missatges a la cua: 172, Instancies actives: 3
+2025-05-22 12:05:27,248 - Missatge rebut: Mensaje 28 Tonto
+2025-05-22 12:05:27,248 - Missatge procesat i confirmat
+2025-05-22 12:05:27,249 - Missatges a la cua: 171, Instancies actives: 4
+2025-05-22 12:05:27,250 - Missatge rebut: Mensaje 29 Bobo
+2025-05-22 12:05:27,252 - Missatge procesat i confirmat
+2025-05-22 12:05:27,261 - Missatges a la cua: 170, Instancies actives: 5
+2025-05-22 12:05:27,403 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 29 Bobo'}
+2025-05-22 12:05:27,403 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:27,408 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 26 Tortuga'}
+2025-05-22 12:05:27,408 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:27,410 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 27 Nada'}
+2025-05-22 12:05:27,410 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:27,416 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 28 Tonto'}
+2025-05-22 12:05:27,417 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:27,444 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 25 Bobo'}
+2025-05-22 12:05:27,445 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:28,263 - Missatges a la cua: 170, Instancies actives: 0
+2025-05-22 12:05:28,264 - Missatge rebut: Mensaje 30 Tortuga
+2025-05-22 12:05:28,264 - Missatge procesat i confirmat
+2025-05-22 12:05:28,266 - Missatges a la cua: 169, Instancies actives: 1
+2025-05-22 12:05:28,269 - Missatge rebut: Mensaje 31 Nada
+2025-05-22 12:05:28,270 - Missatge procesat i confirmat
+2025-05-22 12:05:28,270 - Missatges a la cua: 168, Instancies actives: 2
+2025-05-22 12:05:28,271 - Missatge rebut: Mensaje 32 Tonto
+2025-05-22 12:05:28,272 - Missatge procesat i confirmat
+2025-05-22 12:05:28,273 - Missatges a la cua: 167, Instancies actives: 3
+2025-05-22 12:05:28,277 - Missatge rebut: Mensaje 33 Bobo
+2025-05-22 12:05:28,278 - Missatge procesat i confirmat
+2025-05-22 12:05:28,279 - Missatges a la cua: 166, Instancies actives: 4
+2025-05-22 12:05:28,282 - Missatge rebut: Mensaje 34 Tortuga
+2025-05-22 12:05:28,283 - Missatge procesat i confirmat
+2025-05-22 12:05:28,294 - Missatges a la cua: 165, Instancies actives: 5
+2025-05-22 12:05:28,450 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 34 Tortuga'}
+2025-05-22 12:05:28,450 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:28,456 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 32 Tonto'}
+2025-05-22 12:05:28,456 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:28,469 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 31 Nada'}
+2025-05-22 12:05:28,469 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:28,475 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 30 Tortuga'}
+2025-05-22 12:05:28,476 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:28,476 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 33 Bobo'}
+2025-05-22 12:05:28,476 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:29,295 - Missatges a la cua: 165, Instancies actives: 0
+2025-05-22 12:05:29,296 - Missatge rebut: Mensaje 35 Nada
+2025-05-22 12:05:29,297 - Missatge procesat i confirmat
+2025-05-22 12:05:29,298 - Missatges a la cua: 164, Instancies actives: 1
+2025-05-22 12:05:29,299 - Missatge rebut: Mensaje 36 Tonto
+2025-05-22 12:05:29,302 - Missatge procesat i confirmat
+2025-05-22 12:05:29,305 - Missatges a la cua: 163, Instancies actives: 2
+2025-05-22 12:05:29,309 - Missatge rebut: Mensaje 37 Bobo
+2025-05-22 12:05:29,310 - Missatge procesat i confirmat
+2025-05-22 12:05:29,311 - Missatges a la cua: 162, Instancies actives: 3
+2025-05-22 12:05:29,312 - Missatge rebut: Mensaje 38 Tortuga
+2025-05-22 12:05:29,313 - Missatge procesat i confirmat
+2025-05-22 12:05:29,322 - Missatges a la cua: 161, Instancies actives: 4
+2025-05-22 12:05:29,326 - Missatge rebut: Mensaje 39 Nada
+2025-05-22 12:05:29,327 - Missatge procesat i confirmat
+2025-05-22 12:05:29,333 - Missatges a la cua: 160, Instancies actives: 5
+2025-05-22 12:05:29,465 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 37 Bobo'}
+2025-05-22 12:05:29,465 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:29,466 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 35 Nada'}
+2025-05-22 12:05:29,466 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:29,474 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 39 Nada'}
+2025-05-22 12:05:29,474 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:29,479 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 38 Tortuga'}
+2025-05-22 12:05:29,479 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:29,482 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 36 Tonto'}
+2025-05-22 12:05:29,482 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:30,334 - Missatges a la cua: 160, Instancies actives: 0
+2025-05-22 12:05:30,335 - Missatge rebut: Mensaje 40 Tonto
+2025-05-22 12:05:30,335 - Missatge procesat i confirmat
+2025-05-22 12:05:30,337 - Missatges a la cua: 159, Instancies actives: 1
+2025-05-22 12:05:30,338 - Missatge rebut: Mensaje 41 Bobo
+2025-05-22 12:05:30,338 - Missatge procesat i confirmat
+2025-05-22 12:05:30,339 - Missatges a la cua: 158, Instancies actives: 2
+2025-05-22 12:05:30,340 - Missatge rebut: Mensaje 42 Tortuga
+2025-05-22 12:05:30,340 - Missatge procesat i confirmat
+2025-05-22 12:05:30,341 - Missatges a la cua: 157, Instancies actives: 3
+2025-05-22 12:05:30,343 - Missatge rebut: Mensaje 43 Nada
+2025-05-22 12:05:30,344 - Missatge procesat i confirmat
+2025-05-22 12:05:30,351 - Missatges a la cua: 156, Instancies actives: 4
+2025-05-22 12:05:30,351 - Missatge rebut: Mensaje 44 Tonto
+2025-05-22 12:05:30,352 - Missatge procesat i confirmat
+2025-05-22 12:05:30,353 - Missatges a la cua: 155, Instancies actives: 5
+2025-05-22 12:05:30,506 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 44 Tonto'}
+2025-05-22 12:05:30,506 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:30,506 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 43 Nada'}
+2025-05-22 12:05:30,507 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:30,508 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 42 Tortuga'}
+2025-05-22 12:05:30,508 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:30,510 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 41 Bobo'}
+2025-05-22 12:05:30,510 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:30,516 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 40 Tonto'}
+2025-05-22 12:05:30,516 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:31,354 - Missatges a la cua: 155, Instancies actives: 0
+2025-05-22 12:05:31,354 - Missatge rebut: Mensaje 45 Bobo
+2025-05-22 12:05:31,356 - Missatge procesat i confirmat
+2025-05-22 12:05:31,357 - Missatges a la cua: 154, Instancies actives: 1
+2025-05-22 12:05:31,361 - Missatge rebut: Mensaje 46 Tortuga
+2025-05-22 12:05:31,361 - Missatge procesat i confirmat
+2025-05-22 12:05:31,362 - Missatges a la cua: 153, Instancies actives: 2
+2025-05-22 12:05:31,363 - Missatge rebut: Mensaje 47 Nada
+2025-05-22 12:05:31,364 - Missatge procesat i confirmat
+2025-05-22 12:05:31,364 - Missatges a la cua: 152, Instancies actives: 3
+2025-05-22 12:05:31,365 - Missatge rebut: Mensaje 48 Tonto
+2025-05-22 12:05:31,366 - Missatge procesat i confirmat
+2025-05-22 12:05:31,374 - Missatges a la cua: 151, Instancies actives: 4
+2025-05-22 12:05:31,378 - Missatge rebut: Mensaje 49 Bobo
+2025-05-22 12:05:31,385 - Missatge procesat i confirmat
+2025-05-22 12:05:31,386 - Missatges a la cua: 150, Instancies actives: 5
+2025-05-22 12:05:31,526 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 45 Bobo'}
+2025-05-22 12:05:31,526 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:31,543 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 48 Tonto'}
+2025-05-22 12:05:31,544 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:31,546 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 49 Bobo'}
+2025-05-22 12:05:31,546 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:31,546 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 47 Nada'}
+2025-05-22 12:05:31,546 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:31,628 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 46 Tortuga'}
+2025-05-22 12:05:31,628 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:32,387 - Missatges a la cua: 150, Instancies actives: 0
+2025-05-22 12:05:32,388 - Missatge rebut: Mensaje 50 Tortuga
+2025-05-22 12:05:32,388 - Missatge procesat i confirmat
+2025-05-22 12:05:32,390 - Missatges a la cua: 149, Instancies actives: 1
+2025-05-22 12:05:32,390 - Missatge rebut: Mensaje 51 Nada
+2025-05-22 12:05:32,397 - Missatge procesat i confirmat
+2025-05-22 12:05:32,398 - Missatges a la cua: 148, Instancies actives: 2
+2025-05-22 12:05:32,398 - Missatge rebut: Mensaje 52 Tonto
+2025-05-22 12:05:32,400 - Missatge procesat i confirmat
+2025-05-22 12:05:32,401 - Missatges a la cua: 147, Instancies actives: 3
+2025-05-22 12:05:32,402 - Missatge rebut: Mensaje 53 Bobo
+2025-05-22 12:05:32,402 - Missatge procesat i confirmat
+2025-05-22 12:05:32,405 - Missatges a la cua: 146, Instancies actives: 4
+2025-05-22 12:05:32,406 - Missatge rebut: Mensaje 54 Tortuga
+2025-05-22 12:05:32,407 - Missatge procesat i confirmat
+2025-05-22 12:05:32,413 - Missatges a la cua: 145, Instancies actives: 5
+2025-05-22 12:05:32,567 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 53 Bobo'}
+2025-05-22 12:05:32,567 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:32,568 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 52 Tonto'}
+2025-05-22 12:05:32,568 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:32,568 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 54 Tortuga'}
+2025-05-22 12:05:32,568 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:32,570 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 50 Tortuga'}
+2025-05-22 12:05:32,570 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:32,570 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 51 Nada'}
+2025-05-22 12:05:32,570 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:33,414 - Missatges a la cua: 145, Instancies actives: 0
+2025-05-22 12:05:33,415 - Missatge rebut: Mensaje 55 Nada
+2025-05-22 12:05:33,415 - Missatge procesat i confirmat
+2025-05-22 12:05:33,417 - Missatges a la cua: 144, Instancies actives: 1
+2025-05-22 12:05:33,417 - Missatge rebut: Mensaje 56 Tonto
+2025-05-22 12:05:33,422 - Missatge procesat i confirmat
+2025-05-22 12:05:33,425 - Missatges a la cua: 143, Instancies actives: 2
+2025-05-22 12:05:33,426 - Missatge rebut: Mensaje 57 Bobo
+2025-05-22 12:05:33,426 - Missatge procesat i confirmat
+2025-05-22 12:05:33,427 - Missatges a la cua: 142, Instancies actives: 3
+2025-05-22 12:05:33,427 - Missatge rebut: Mensaje 58 Tortuga
+2025-05-22 12:05:33,428 - Missatge procesat i confirmat
+2025-05-22 12:05:33,434 - Missatges a la cua: 141, Instancies actives: 4
+2025-05-22 12:05:33,435 - Missatge rebut: Mensaje 59 Nada
+2025-05-22 12:05:33,436 - Missatge procesat i confirmat
+2025-05-22 12:05:33,446 - Missatges a la cua: 140, Instancies actives: 5
+2025-05-22 12:05:33,585 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 59 Nada'}
+2025-05-22 12:05:33,585 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:33,589 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 55 Nada'}
+2025-05-22 12:05:33,589 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:33,600 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 57 Bobo'}
+2025-05-22 12:05:33,600 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:33,602 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 58 Tortuga'}
+2025-05-22 12:05:33,602 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:33,615 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 56 Tonto'}
+2025-05-22 12:05:33,615 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:34,447 - Missatges a la cua: 140, Instancies actives: 0
+2025-05-22 12:05:34,447 - Missatge rebut: Mensaje 60 Tonto
+2025-05-22 12:05:34,448 - Missatge procesat i confirmat
+2025-05-22 12:05:34,449 - Missatges a la cua: 139, Instancies actives: 1
+2025-05-22 12:05:34,450 - Missatge rebut: Mensaje 61 Bobo
+2025-05-22 12:05:34,450 - Missatge procesat i confirmat
+2025-05-22 12:05:34,453 - Missatges a la cua: 138, Instancies actives: 2
+2025-05-22 12:05:34,455 - Missatge rebut: Mensaje 62 Tortuga
+2025-05-22 12:05:34,455 - Missatge procesat i confirmat
+2025-05-22 12:05:34,456 - Missatges a la cua: 137, Instancies actives: 3
+2025-05-22 12:05:34,456 - Missatge rebut: Mensaje 63 Nada
+2025-05-22 12:05:34,461 - Missatge procesat i confirmat
+2025-05-22 12:05:34,465 - Missatges a la cua: 136, Instancies actives: 4
+2025-05-22 12:05:34,466 - Missatge rebut: Mensaje 64 Tonto
+2025-05-22 12:05:34,474 - Missatge procesat i confirmat
+2025-05-22 12:05:34,481 - Missatges a la cua: 135, Instancies actives: 5
+2025-05-22 12:05:34,626 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 60 Tonto'}
+2025-05-22 12:05:34,626 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:34,630 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 62 Tortuga'}
+2025-05-22 12:05:34,630 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:34,639 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 61 Bobo'}
+2025-05-22 12:05:34,639 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:34,663 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 63 Nada'}
+2025-05-22 12:05:34,663 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:34,708 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 64 Tonto'}
+2025-05-22 12:05:34,708 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:35,482 - Missatges a la cua: 135, Instancies actives: 0
+2025-05-22 12:05:35,482 - Missatge rebut: Mensaje 65 Bobo
+2025-05-22 12:05:35,484 - Missatge procesat i confirmat
+2025-05-22 12:05:35,485 - Missatges a la cua: 134, Instancies actives: 1
+2025-05-22 12:05:35,485 - Missatge rebut: Mensaje 66 Tortuga
+2025-05-22 12:05:35,489 - Missatge procesat i confirmat
+2025-05-22 12:05:35,491 - Missatges a la cua: 133, Instancies actives: 2
+2025-05-22 12:05:35,491 - Missatge rebut: Mensaje 67 Nada
+2025-05-22 12:05:35,492 - Missatge procesat i confirmat
+2025-05-22 12:05:35,493 - Missatges a la cua: 132, Instancies actives: 3
+2025-05-22 12:05:35,497 - Missatge rebut: Mensaje 68 Tonto
+2025-05-22 12:05:35,498 - Missatge procesat i confirmat
+2025-05-22 12:05:35,499 - Missatges a la cua: 131, Instancies actives: 4
+2025-05-22 12:05:35,499 - Missatge rebut: Mensaje 69 Bobo
+2025-05-22 12:05:35,499 - Missatge procesat i confirmat
+2025-05-22 12:05:35,501 - Missatges a la cua: 130, Instancies actives: 5
+2025-05-22 12:05:35,648 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 69 Bobo'}
+2025-05-22 12:05:35,648 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:35,657 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 67 Nada'}
+2025-05-22 12:05:35,657 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:35,658 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 68 Tonto'}
+2025-05-22 12:05:35,658 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:35,660 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 65 Bobo'}
+2025-05-22 12:05:35,660 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:35,666 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 66 Tortuga'}
+2025-05-22 12:05:35,666 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:36,502 - Missatges a la cua: 130, Instancies actives: 0
+2025-05-22 12:05:36,503 - Missatge rebut: Mensaje 70 Tortuga
+2025-05-22 12:05:36,504 - Missatge procesat i confirmat
+2025-05-22 12:05:36,505 - Missatges a la cua: 129, Instancies actives: 1
+2025-05-22 12:05:36,509 - Missatge rebut: Mensaje 71 Nada
+2025-05-22 12:05:36,510 - Missatge procesat i confirmat
+2025-05-22 12:05:36,511 - Missatges a la cua: 128, Instancies actives: 2
+2025-05-22 12:05:36,518 - Missatge rebut: Mensaje 72 Tonto
+2025-05-22 12:05:36,518 - Missatge procesat i confirmat
+2025-05-22 12:05:36,519 - Missatges a la cua: 127, Instancies actives: 3
+2025-05-22 12:05:36,520 - Missatge rebut: Mensaje 73 Bobo
+2025-05-22 12:05:36,521 - Missatge procesat i confirmat
+2025-05-22 12:05:36,530 - Missatges a la cua: 126, Instancies actives: 4
+2025-05-22 12:05:36,533 - Missatge rebut: Mensaje 74 Tortuga
+2025-05-22 12:05:36,534 - Missatge procesat i confirmat
+2025-05-22 12:05:36,535 - Missatges a la cua: 125, Instancies actives: 5
+2025-05-22 12:05:36,676 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 72 Tonto'}
+2025-05-22 12:05:36,676 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:36,680 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 73 Bobo'}
+2025-05-22 12:05:36,680 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:36,684 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 71 Nada'}
+2025-05-22 12:05:36,684 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:36,685 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 74 Tortuga'}
+2025-05-22 12:05:36,685 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:36,686 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 70 Tortuga'}
+2025-05-22 12:05:36,686 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:37,537 - Missatges a la cua: 125, Instancies actives: 0
+2025-05-22 12:05:37,538 - Missatge rebut: Mensaje 75 Nada
+2025-05-22 12:05:37,538 - Missatge procesat i confirmat
+2025-05-22 12:05:37,540 - Missatges a la cua: 124, Instancies actives: 1
+2025-05-22 12:05:37,540 - Missatge rebut: Mensaje 76 Tonto
+2025-05-22 12:05:37,540 - Missatge procesat i confirmat
+2025-05-22 12:05:37,545 - Missatges a la cua: 123, Instancies actives: 2
+2025-05-22 12:05:37,546 - Missatge rebut: Mensaje 77 Bobo
+2025-05-22 12:05:37,547 - Missatge procesat i confirmat
+2025-05-22 12:05:37,548 - Missatges a la cua: 122, Instancies actives: 3
+2025-05-22 12:05:37,548 - Missatge rebut: Mensaje 78 Tortuga
+2025-05-22 12:05:37,549 - Missatge procesat i confirmat
+2025-05-22 12:05:37,551 - Missatges a la cua: 121, Instancies actives: 4
+2025-05-22 12:05:37,554 - Missatge rebut: Mensaje 79 Nada
+2025-05-22 12:05:37,565 - Missatge procesat i confirmat
+2025-05-22 12:05:37,566 - Missatges a la cua: 120, Instancies actives: 5
+2025-05-22 12:05:37,707 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 77 Bobo'}
+2025-05-22 12:05:37,707 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:37,708 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 79 Nada'}
+2025-05-22 12:05:37,708 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:37,713 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 78 Tortuga'}
+2025-05-22 12:05:37,713 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:37,717 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 75 Nada'}
+2025-05-22 12:05:37,717 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:37,732 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 76 Tonto'}
+2025-05-22 12:05:37,732 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:38,567 - Missatges a la cua: 120, Instancies actives: 0
+2025-05-22 12:05:38,568 - Missatge rebut: Mensaje 80 Tonto
+2025-05-22 12:05:38,568 - Missatge procesat i confirmat
+2025-05-22 12:05:38,569 - Missatges a la cua: 119, Instancies actives: 1
+2025-05-22 12:05:38,570 - Missatge rebut: Mensaje 81 Bobo
+2025-05-22 12:05:38,573 - Missatge procesat i confirmat
+2025-05-22 12:05:38,574 - Missatges a la cua: 118, Instancies actives: 2
+2025-05-22 12:05:38,577 - Missatge rebut: Mensaje 82 Tortuga
+2025-05-22 12:05:38,579 - Missatge procesat i confirmat
+2025-05-22 12:05:38,579 - Missatges a la cua: 117, Instancies actives: 3
+2025-05-22 12:05:38,581 - Missatge rebut: Mensaje 83 Nada
+2025-05-22 12:05:38,582 - Missatge procesat i confirmat
+2025-05-22 12:05:38,583 - Missatges a la cua: 116, Instancies actives: 4
+2025-05-22 12:05:38,585 - Missatge rebut: Mensaje 84 Tonto
+2025-05-22 12:05:38,590 - Missatge procesat i confirmat
+2025-05-22 12:05:38,598 - Missatges a la cua: 115, Instancies actives: 5
+2025-05-22 12:05:38,736 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 81 Bobo'}
+2025-05-22 12:05:38,736 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:38,737 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 80 Tonto'}
+2025-05-22 12:05:38,737 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:38,740 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 83 Nada'}
+2025-05-22 12:05:38,740 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:38,740 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 84 Tonto'}
+2025-05-22 12:05:38,740 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:38,750 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 82 Tortuga'}
+2025-05-22 12:05:38,750 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:39,600 - Missatges a la cua: 115, Instancies actives: 0
+2025-05-22 12:05:39,600 - Missatge rebut: Mensaje 85 Bobo
+2025-05-22 12:05:39,601 - Missatge procesat i confirmat
+2025-05-22 12:05:39,603 - Missatges a la cua: 114, Instancies actives: 1
+2025-05-22 12:05:39,605 - Missatge rebut: Mensaje 86 Tortuga
+2025-05-22 12:05:39,607 - Missatge procesat i confirmat
+2025-05-22 12:05:39,607 - Missatges a la cua: 113, Instancies actives: 2
+2025-05-22 12:05:39,609 - Missatge rebut: Mensaje 87 Nada
+2025-05-22 12:05:39,609 - Missatge procesat i confirmat
+2025-05-22 12:05:39,614 - Missatges a la cua: 112, Instancies actives: 3
+2025-05-22 12:05:39,615 - Missatge rebut: Mensaje 88 Tonto
+2025-05-22 12:05:39,616 - Missatge procesat i confirmat
+2025-05-22 12:05:39,617 - Missatges a la cua: 111, Instancies actives: 4
+2025-05-22 12:05:39,621 - Missatge rebut: Mensaje 89 Bobo
+2025-05-22 12:05:39,637 - Missatge procesat i confirmat
+2025-05-22 12:05:39,642 - Missatges a la cua: 110, Instancies actives: 5
+2025-05-22 12:05:39,771 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 88 Tonto'}
+2025-05-22 12:05:39,771 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:39,780 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 89 Bobo'}
+2025-05-22 12:05:39,780 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:39,781 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 87 Nada'}
+2025-05-22 12:05:39,781 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:39,782 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 85 Bobo'}
+2025-05-22 12:05:39,782 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:39,782 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 86 Tortuga'}
+2025-05-22 12:05:39,783 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:40,643 - Missatges a la cua: 110, Instancies actives: 0
+2025-05-22 12:05:40,643 - Missatge rebut: Mensaje 90 Tortuga
+2025-05-22 12:05:40,643 - Missatge procesat i confirmat
+2025-05-22 12:05:40,645 - Missatges a la cua: 109, Instancies actives: 1
+2025-05-22 12:05:40,649 - Missatge rebut: Mensaje 91 Nada
+2025-05-22 12:05:40,649 - Missatge procesat i confirmat
+2025-05-22 12:05:40,650 - Missatges a la cua: 108, Instancies actives: 2
+2025-05-22 12:05:40,651 - Missatge rebut: Mensaje 92 Tonto
+2025-05-22 12:05:40,652 - Missatge procesat i confirmat
+2025-05-22 12:05:40,653 - Missatges a la cua: 107, Instancies actives: 3
+2025-05-22 12:05:40,657 - Missatge rebut: Mensaje 93 Bobo
+2025-05-22 12:05:40,658 - Missatge procesat i confirmat
+2025-05-22 12:05:40,659 - Missatges a la cua: 106, Instancies actives: 4
+2025-05-22 12:05:40,660 - Missatge rebut: Mensaje 94 Tortuga
+2025-05-22 12:05:40,661 - Missatge procesat i confirmat
+2025-05-22 12:05:40,670 - Missatges a la cua: 105, Instancies actives: 5
+2025-05-22 12:05:40,812 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 90 Tortuga'}
+2025-05-22 12:05:40,812 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:40,813 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 93 Bobo'}
+2025-05-22 12:05:40,813 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:40,820 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 92 Tonto'}
+2025-05-22 12:05:40,820 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:40,827 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 94 Tortuga'}
+2025-05-22 12:05:40,827 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:40,827 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 91 Nada'}
+2025-05-22 12:05:40,828 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:41,671 - Missatges a la cua: 105, Instancies actives: 0
+2025-05-22 12:05:41,673 - Missatge rebut: Mensaje 95 Nada
+2025-05-22 12:05:41,675 - Missatge procesat i confirmat
+2025-05-22 12:05:41,677 - Missatges a la cua: 104, Instancies actives: 1
+2025-05-22 12:05:41,681 - Missatge rebut: Mensaje 96 Tonto
+2025-05-22 12:05:41,682 - Missatge procesat i confirmat
+2025-05-22 12:05:41,683 - Missatges a la cua: 103, Instancies actives: 2
+2025-05-22 12:05:41,685 - Missatge rebut: Mensaje 97 Bobo
+2025-05-22 12:05:41,686 - Missatge procesat i confirmat
+2025-05-22 12:05:41,687 - Missatges a la cua: 102, Instancies actives: 3
+2025-05-22 12:05:41,688 - Missatge rebut: Mensaje 98 Tortuga
+2025-05-22 12:05:41,689 - Missatge procesat i confirmat
+2025-05-22 12:05:41,697 - Missatges a la cua: 101, Instancies actives: 4
+2025-05-22 12:05:41,701 - Missatge rebut: Mensaje 99 Nada
+2025-05-22 12:05:41,702 - Missatge procesat i confirmat
+2025-05-22 12:05:41,705 - Missatges a la cua: 100, Instancies actives: 5
+2025-05-22 12:05:41,848 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 95 Nada'}
+2025-05-22 12:05:41,848 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:41,852 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 96 Tonto'}
+2025-05-22 12:05:41,852 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:41,855 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 99 Nada'}
+2025-05-22 12:05:41,855 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:41,856 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 97 Bobo'}
+2025-05-22 12:05:41,856 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:41,864 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 98 Tortuga'}
+2025-05-22 12:05:41,864 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:42,707 - Missatges a la cua: 100, Instancies actives: 0
+2025-05-22 12:05:42,708 - Missatge rebut: Mensaje 0 Tonto
+2025-05-22 12:05:42,708 - Missatge procesat i confirmat
+2025-05-22 12:05:42,710 - Missatges a la cua: 99, Instancies actives: 1
+2025-05-22 12:05:42,713 - Missatge rebut: Mensaje 1 Bobo
+2025-05-22 12:05:42,713 - Missatge procesat i confirmat
+2025-05-22 12:05:42,714 - Missatges a la cua: 98, Instancies actives: 2
+2025-05-22 12:05:42,715 - Missatge rebut: Mensaje 2 Tortuga
+2025-05-22 12:05:42,717 - Missatge procesat i confirmat
+2025-05-22 12:05:42,717 - Missatges a la cua: 97, Instancies actives: 3
+2025-05-22 12:05:42,721 - Missatge rebut: Mensaje 3 Nada
+2025-05-22 12:05:42,722 - Missatge procesat i confirmat
+2025-05-22 12:05:42,723 - Missatges a la cua: 96, Instancies actives: 4
+2025-05-22 12:05:42,726 - Missatge rebut: Mensaje 4 Tonto
+2025-05-22 12:05:42,729 - Missatge procesat i confirmat
+2025-05-22 12:05:42,737 - Missatges a la cua: 95, Instancies actives: 5
+2025-05-22 12:05:42,884 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 0 Tonto'}
+2025-05-22 12:05:42,884 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:42,886 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 2 Tortuga'}
+2025-05-22 12:05:42,886 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:42,888 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 3 Nada'}
+2025-05-22 12:05:42,888 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:42,889 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 1 Bobo'}
+2025-05-22 12:05:42,889 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:42,892 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 4 Tonto'}
+2025-05-22 12:05:42,892 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:43,739 - Missatges a la cua: 95, Instancies actives: 0
+2025-05-22 12:05:43,739 - Missatge rebut: Mensaje 5 Bobo
+2025-05-22 12:05:43,740 - Missatge procesat i confirmat
+2025-05-22 12:05:43,741 - Missatges a la cua: 94, Instancies actives: 1
+2025-05-22 12:05:43,742 - Missatge rebut: Mensaje 6 Tortuga
+2025-05-22 12:05:43,742 - Missatge procesat i confirmat
+2025-05-22 12:05:43,743 - Missatges a la cua: 93, Instancies actives: 2
+2025-05-22 12:05:43,745 - Missatge rebut: Mensaje 7 Nada
+2025-05-22 12:05:43,746 - Missatge procesat i confirmat
+2025-05-22 12:05:43,749 - Missatges a la cua: 92, Instancies actives: 3
+2025-05-22 12:05:43,750 - Missatge rebut: Mensaje 8 Tonto
+2025-05-22 12:05:43,754 - Missatge procesat i confirmat
+2025-05-22 12:05:43,754 - Missatges a la cua: 91, Instancies actives: 4
+2025-05-22 12:05:43,761 - Missatge rebut: Mensaje 9 Bobo
+2025-05-22 12:05:43,762 - Missatge procesat i confirmat
+2025-05-22 12:05:43,765 - Missatges a la cua: 90, Instancies actives: 5
+2025-05-22 12:05:43,918 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 9 Bobo'}
+2025-05-22 12:05:43,918 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:43,919 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 8 Tonto'}
+2025-05-22 12:05:43,919 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:43,920 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 5 Bobo'}
+2025-05-22 12:05:43,920 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:43,920 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 7 Nada'}
+2025-05-22 12:05:43,920 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:43,926 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 6 Tortuga'}
+2025-05-22 12:05:43,926 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:44,767 - Missatges a la cua: 90, Instancies actives: 0
+2025-05-22 12:05:44,768 - Missatge rebut: Mensaje 10 Tortuga
+2025-05-22 12:05:44,768 - Missatge procesat i confirmat
+2025-05-22 12:05:44,770 - Missatges a la cua: 89, Instancies actives: 1
+2025-05-22 12:05:44,770 - Missatge rebut: Mensaje 11 Nada
+2025-05-22 12:05:44,770 - Missatge procesat i confirmat
+2025-05-22 12:05:44,772 - Missatges a la cua: 88, Instancies actives: 2
+2025-05-22 12:05:44,772 - Missatge rebut: Mensaje 12 Tonto
+2025-05-22 12:05:44,772 - Missatge procesat i confirmat
+2025-05-22 12:05:44,777 - Missatges a la cua: 87, Instancies actives: 3
+2025-05-22 12:05:44,782 - Missatge rebut: Mensaje 13 Bobo
+2025-05-22 12:05:44,782 - Missatge procesat i confirmat
+2025-05-22 12:05:44,783 - Missatges a la cua: 86, Instancies actives: 4
+2025-05-22 12:05:44,784 - Missatge rebut: Mensaje 14 Tortuga
+2025-05-22 12:05:44,786 - Missatge procesat i confirmat
+2025-05-22 12:05:44,786 - Missatges a la cua: 85, Instancies actives: 5
+2025-05-22 12:05:44,943 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 12 Tonto'}
+2025-05-22 12:05:44,944 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:44,944 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 13 Bobo'}
+2025-05-22 12:05:44,944 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:44,947 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 14 Tortuga'}
+2025-05-22 12:05:44,947 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:44,973 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 10 Tortuga'}
+2025-05-22 12:05:44,974 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:44,991 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 11 Nada'}
+2025-05-22 12:05:44,992 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:45,787 - Missatges a la cua: 85, Instancies actives: 0
+2025-05-22 12:05:45,788 - Missatge rebut: Mensaje 15 Nada
+2025-05-22 12:05:45,788 - Missatge procesat i confirmat
+2025-05-22 12:05:45,790 - Missatges a la cua: 84, Instancies actives: 1
+2025-05-22 12:05:45,791 - Missatge rebut: Mensaje 16 Tonto
+2025-05-22 12:05:45,791 - Missatge procesat i confirmat
+2025-05-22 12:05:45,793 - Missatges a la cua: 83, Instancies actives: 2
+2025-05-22 12:05:45,794 - Missatge rebut: Mensaje 17 Bobo
+2025-05-22 12:05:45,794 - Missatge procesat i confirmat
+2025-05-22 12:05:45,797 - Missatges a la cua: 82, Instancies actives: 3
+2025-05-22 12:05:45,799 - Missatge rebut: Mensaje 18 Tortuga
+2025-05-22 12:05:45,800 - Missatge procesat i confirmat
+2025-05-22 12:05:45,801 - Missatges a la cua: 81, Instancies actives: 4
+2025-05-22 12:05:45,802 - Missatge rebut: Mensaje 19 Nada
+2025-05-22 12:05:45,803 - Missatge procesat i confirmat
+2025-05-22 12:05:45,809 - Missatges a la cua: 80, Instancies actives: 5
+2025-05-22 12:05:45,965 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 19 Nada'}
+2025-05-22 12:05:45,965 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:45,967 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 15 Nada'}
+2025-05-22 12:05:45,967 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:45,970 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 16 Tonto'}
+2025-05-22 12:05:45,970 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:45,971 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 18 Tortuga'}
+2025-05-22 12:05:45,971 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:45,981 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 17 Bobo'}
+2025-05-22 12:05:45,981 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:46,811 - Missatges a la cua: 80, Instancies actives: 0
+2025-05-22 12:05:46,812 - Missatge rebut: Mensaje 20 Tonto
+2025-05-22 12:05:46,812 - Missatge procesat i confirmat
+2025-05-22 12:05:46,813 - Missatges a la cua: 79, Instancies actives: 1
+2025-05-22 12:05:46,814 - Missatge rebut: Mensaje 21 Bobo
+2025-05-22 12:05:46,817 - Missatge procesat i confirmat
+2025-05-22 12:05:46,821 - Missatges a la cua: 78, Instancies actives: 2
+2025-05-22 12:05:46,823 - Missatge rebut: Mensaje 22 Tortuga
+2025-05-22 12:05:46,825 - Missatge procesat i confirmat
+2025-05-22 12:05:46,826 - Missatges a la cua: 77, Instancies actives: 3
+2025-05-22 12:05:46,827 - Missatge rebut: Mensaje 23 Nada
+2025-05-22 12:05:46,828 - Missatge procesat i confirmat
+2025-05-22 12:05:46,837 - Missatges a la cua: 76, Instancies actives: 4
+2025-05-22 12:05:46,841 - Missatge rebut: Mensaje 24 Tonto
+2025-05-22 12:05:46,842 - Missatge procesat i confirmat
+2025-05-22 12:05:46,845 - Missatges a la cua: 75, Instancies actives: 5
+2025-05-22 12:05:46,988 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 23 Nada'}
+2025-05-22 12:05:46,988 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:46,990 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 21 Bobo'}
+2025-05-22 12:05:46,991 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:47,009 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 24 Tonto'}
+2025-05-22 12:05:47,009 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:47,013 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 20 Tonto'}
+2025-05-22 12:05:47,013 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:47,019 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 22 Tortuga'}
+2025-05-22 12:05:47,019 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:47,847 - Missatges a la cua: 75, Instancies actives: 0
+2025-05-22 12:05:47,847 - Missatge rebut: Mensaje 25 Bobo
+2025-05-22 12:05:47,848 - Missatge procesat i confirmat
+2025-05-22 12:05:47,849 - Missatges a la cua: 74, Instancies actives: 1
+2025-05-22 12:05:47,850 - Missatge rebut: Mensaje 26 Tortuga
+2025-05-22 12:05:47,854 - Missatge procesat i confirmat
+2025-05-22 12:05:47,857 - Missatges a la cua: 73, Instancies actives: 2
+2025-05-22 12:05:47,858 - Missatge rebut: Mensaje 27 Nada
+2025-05-22 12:05:47,858 - Missatge procesat i confirmat
+2025-05-22 12:05:47,859 - Missatges a la cua: 72, Instancies actives: 3
+2025-05-22 12:05:47,860 - Missatge rebut: Mensaje 28 Tonto
+2025-05-22 12:05:47,861 - Missatge procesat i confirmat
+2025-05-22 12:05:47,863 - Missatges a la cua: 71, Instancies actives: 4
+2025-05-22 12:05:47,863 - Missatge rebut: Mensaje 29 Bobo
+2025-05-22 12:05:47,864 - Missatge procesat i confirmat
+2025-05-22 12:05:47,865 - Missatges a la cua: 70, Instancies actives: 5
+2025-05-22 12:05:48,013 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 26 Tortuga'}
+2025-05-22 12:05:48,013 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:48,020 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 25 Bobo'}
+2025-05-22 12:05:48,020 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:48,023 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 27 Nada'}
+2025-05-22 12:05:48,023 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:48,031 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 29 Bobo'}
+2025-05-22 12:05:48,031 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:48,031 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 28 Tonto'}
+2025-05-22 12:05:48,032 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:48,866 - Missatges a la cua: 70, Instancies actives: 0
+2025-05-22 12:05:48,867 - Missatge rebut: Mensaje 30 Tortuga
+2025-05-22 12:05:48,867 - Missatge procesat i confirmat
+2025-05-22 12:05:48,869 - Missatges a la cua: 69, Instancies actives: 1
+2025-05-22 12:05:48,870 - Missatge rebut: Mensaje 31 Nada
+2025-05-22 12:05:48,870 - Missatge procesat i confirmat
+2025-05-22 12:05:48,877 - Missatges a la cua: 68, Instancies actives: 2
+2025-05-22 12:05:48,879 - Missatge rebut: Mensaje 32 Tonto
+2025-05-22 12:05:48,879 - Missatge procesat i confirmat
+2025-05-22 12:05:48,880 - Missatges a la cua: 67, Instancies actives: 3
+2025-05-22 12:05:48,881 - Missatge rebut: Mensaje 33 Bobo
+2025-05-22 12:05:48,881 - Missatge procesat i confirmat
+2025-05-22 12:05:48,882 - Missatges a la cua: 66, Instancies actives: 4
+2025-05-22 12:05:48,883 - Missatge rebut: Mensaje 34 Tortuga
+2025-05-22 12:05:48,885 - Missatge procesat i confirmat
+2025-05-22 12:05:48,889 - Missatges a la cua: 65, Instancies actives: 5
+2025-05-22 12:05:49,042 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 30 Tortuga'}
+2025-05-22 12:05:49,042 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:49,045 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 31 Nada'}
+2025-05-22 12:05:49,045 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:49,046 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 34 Tortuga'}
+2025-05-22 12:05:49,046 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:49,048 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 32 Tonto'}
+2025-05-22 12:05:49,048 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:49,105 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 33 Bobo'}
+2025-05-22 12:05:49,105 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:49,890 - Missatges a la cua: 65, Instancies actives: 0
+2025-05-22 12:05:49,891 - Missatge rebut: Mensaje 35 Nada
+2025-05-22 12:05:49,891 - Missatge procesat i confirmat
+2025-05-22 12:05:49,893 - Missatges a la cua: 64, Instancies actives: 1
+2025-05-22 12:05:49,897 - Missatge rebut: Mensaje 36 Tonto
+2025-05-22 12:05:49,899 - Missatge procesat i confirmat
+2025-05-22 12:05:49,899 - Missatges a la cua: 63, Instancies actives: 2
+2025-05-22 12:05:49,900 - Missatge rebut: Mensaje 37 Bobo
+2025-05-22 12:05:49,906 - Missatge procesat i confirmat
+2025-05-22 12:05:49,908 - Missatges a la cua: 62, Instancies actives: 3
+2025-05-22 12:05:49,909 - Missatge rebut: Mensaje 38 Tortuga
+2025-05-22 12:05:49,910 - Missatge procesat i confirmat
+2025-05-22 12:05:49,914 - Missatges a la cua: 61, Instancies actives: 4
+2025-05-22 12:05:49,914 - Missatge rebut: Mensaje 39 Nada
+2025-05-22 12:05:49,915 - Missatge procesat i confirmat
+2025-05-22 12:05:49,921 - Missatges a la cua: 60, Instancies actives: 5
+2025-05-22 12:05:50,059 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 35 Nada'}
+2025-05-22 12:05:50,059 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:50,072 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 39 Nada'}
+2025-05-22 12:05:50,072 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:50,074 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 36 Tonto'}
+2025-05-22 12:05:50,074 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:50,083 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 38 Tortuga'}
+2025-05-22 12:05:50,084 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:50,087 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 37 Bobo'}
+2025-05-22 12:05:50,087 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:50,922 - Missatges a la cua: 60, Instancies actives: 0
+2025-05-22 12:05:50,923 - Missatge rebut: Mensaje 40 Tonto
+2025-05-22 12:05:50,924 - Missatge procesat i confirmat
+2025-05-22 12:05:50,925 - Missatges a la cua: 59, Instancies actives: 1
+2025-05-22 12:05:50,929 - Missatge rebut: Mensaje 41 Bobo
+2025-05-22 12:05:50,931 - Missatge procesat i confirmat
+2025-05-22 12:05:50,931 - Missatges a la cua: 58, Instancies actives: 2
+2025-05-22 12:05:50,933 - Missatge rebut: Mensaje 42 Tortuga
+2025-05-22 12:05:50,934 - Missatge procesat i confirmat
+2025-05-22 12:05:50,936 - Missatges a la cua: 57, Instancies actives: 3
+2025-05-22 12:05:50,936 - Missatge rebut: Mensaje 43 Nada
+2025-05-22 12:05:50,945 - Missatge procesat i confirmat
+2025-05-22 12:05:50,950 - Missatges a la cua: 56, Instancies actives: 4
+2025-05-22 12:05:50,951 - Missatge rebut: Mensaje 44 Tonto
+2025-05-22 12:05:50,951 - Missatge procesat i confirmat
+2025-05-22 12:05:50,962 - Missatges a la cua: 55, Instancies actives: 5
+2025-05-22 12:05:51,100 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 41 Bobo'}
+2025-05-22 12:05:51,100 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:51,107 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 40 Tonto'}
+2025-05-22 12:05:51,107 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:51,114 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 44 Tonto'}
+2025-05-22 12:05:51,114 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:51,117 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 43 Nada'}
+2025-05-22 12:05:51,117 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:51,125 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 42 Tortuga'}
+2025-05-22 12:05:51,125 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:51,963 - Missatges a la cua: 55, Instancies actives: 0
+2025-05-22 12:05:51,963 - Missatge rebut: Mensaje 45 Bobo
+2025-05-22 12:05:51,964 - Missatge procesat i confirmat
+2025-05-22 12:05:51,965 - Missatges a la cua: 54, Instancies actives: 1
+2025-05-22 12:05:51,966 - Missatge rebut: Mensaje 46 Tortuga
+2025-05-22 12:05:51,966 - Missatge procesat i confirmat
+2025-05-22 12:05:51,969 - Missatges a la cua: 53, Instancies actives: 2
+2025-05-22 12:05:51,971 - Missatge rebut: Mensaje 47 Nada
+2025-05-22 12:05:51,972 - Missatge procesat i confirmat
+2025-05-22 12:05:51,972 - Missatges a la cua: 52, Instancies actives: 3
+2025-05-22 12:05:51,978 - Missatge rebut: Mensaje 48 Tonto
+2025-05-22 12:05:51,979 - Missatge procesat i confirmat
+2025-05-22 12:05:51,979 - Missatges a la cua: 51, Instancies actives: 4
+2025-05-22 12:05:51,985 - Missatge rebut: Mensaje 49 Bobo
+2025-05-22 12:05:51,987 - Missatge procesat i confirmat
+2025-05-22 12:05:51,998 - Missatges a la cua: 50, Instancies actives: 5
+2025-05-22 12:05:52,154 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 49 Bobo'}
+2025-05-22 12:05:52,154 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:52,155 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 48 Tonto'}
+2025-05-22 12:05:52,155 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:52,155 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 45 Bobo'}
+2025-05-22 12:05:52,155 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:52,162 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 46 Tortuga'}
+2025-05-22 12:05:52,162 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:52,222 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 47 Nada'}
+2025-05-22 12:05:52,222 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:52,999 - Missatges a la cua: 50, Instancies actives: 0
+2025-05-22 12:05:52,999 - Missatge rebut: Mensaje 50 Tortuga
+2025-05-22 12:05:53,000 - Missatge procesat i confirmat
+2025-05-22 12:05:53,001 - Missatges a la cua: 49, Instancies actives: 1
+2025-05-22 12:05:53,002 - Missatge rebut: Mensaje 51 Nada
+2025-05-22 12:05:53,006 - Missatge procesat i confirmat
+2025-05-22 12:05:53,006 - Missatges a la cua: 48, Instancies actives: 2
+2025-05-22 12:05:53,009 - Missatge rebut: Mensaje 52 Tonto
+2025-05-22 12:05:53,010 - Missatge procesat i confirmat
+2025-05-22 12:05:53,010 - Missatges a la cua: 47, Instancies actives: 3
+2025-05-22 12:05:53,012 - Missatge rebut: Mensaje 53 Bobo
+2025-05-22 12:05:53,015 - Missatge procesat i confirmat
+2025-05-22 12:05:53,021 - Missatges a la cua: 46, Instancies actives: 4
+2025-05-22 12:05:53,022 - Missatge rebut: Mensaje 54 Tortuga
+2025-05-22 12:05:53,024 - Missatge procesat i confirmat
+2025-05-22 12:05:53,034 - Missatges a la cua: 45, Instancies actives: 5
+2025-05-22 12:05:53,168 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 53 Bobo'}
+2025-05-22 12:05:53,168 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:53,172 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 50 Tortuga'}
+2025-05-22 12:05:53,172 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:53,178 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 54 Tortuga'}
+2025-05-22 12:05:53,178 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:53,186 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 52 Tonto'}
+2025-05-22 12:05:53,186 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:53,187 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 51 Nada'}
+2025-05-22 12:05:53,187 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:54,035 - Missatges a la cua: 45, Instancies actives: 0
+2025-05-22 12:05:54,036 - Missatge rebut: Mensaje 55 Nada
+2025-05-22 12:05:54,036 - Missatge procesat i confirmat
+2025-05-22 12:05:54,038 - Missatges a la cua: 44, Instancies actives: 1
+2025-05-22 12:05:54,038 - Missatge rebut: Mensaje 56 Tonto
+2025-05-22 12:05:54,038 - Missatge procesat i confirmat
+2025-05-22 12:05:54,039 - Missatges a la cua: 43, Instancies actives: 2
+2025-05-22 12:05:54,046 - Missatge rebut: Mensaje 57 Bobo
+2025-05-22 12:05:54,046 - Missatge procesat i confirmat
+2025-05-22 12:05:54,050 - Missatges a la cua: 42, Instancies actives: 3
+2025-05-22 12:05:54,050 - Missatge rebut: Mensaje 58 Tortuga
+2025-05-22 12:05:54,052 - Missatge procesat i confirmat
+2025-05-22 12:05:54,053 - Missatges a la cua: 41, Instancies actives: 4
+2025-05-22 12:05:54,061 - Missatge rebut: Mensaje 59 Nada
+2025-05-22 12:05:54,062 - Missatge procesat i confirmat
+2025-05-22 12:05:54,063 - Missatges a la cua: 40, Instancies actives: 5
+2025-05-22 12:05:54,209 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 59 Nada'}
+2025-05-22 12:05:54,209 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:54,216 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 55 Nada'}
+2025-05-22 12:05:54,217 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:54,218 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 57 Bobo'}
+2025-05-22 12:05:54,218 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:54,221 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 58 Tortuga'}
+2025-05-22 12:05:54,221 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:54,221 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 56 Tonto'}
+2025-05-22 12:05:54,221 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:55,064 - Missatges a la cua: 40, Instancies actives: 0
+2025-05-22 12:05:55,065 - Missatge rebut: Mensaje 60 Tonto
+2025-05-22 12:05:55,065 - Missatge procesat i confirmat
+2025-05-22 12:05:55,066 - Missatges a la cua: 39, Instancies actives: 1
+2025-05-22 12:05:55,067 - Missatge rebut: Mensaje 61 Bobo
+2025-05-22 12:05:55,067 - Missatge procesat i confirmat
+2025-05-22 12:05:55,069 - Missatges a la cua: 38, Instancies actives: 2
+2025-05-22 12:05:55,073 - Missatge rebut: Mensaje 62 Tortuga
+2025-05-22 12:05:55,074 - Missatge procesat i confirmat
+2025-05-22 12:05:55,074 - Missatges a la cua: 37, Instancies actives: 3
+2025-05-22 12:05:55,075 - Missatge rebut: Mensaje 63 Nada
+2025-05-22 12:05:55,076 - Missatge procesat i confirmat
+2025-05-22 12:05:55,077 - Missatges a la cua: 36, Instancies actives: 4
+2025-05-22 12:05:55,081 - Missatge rebut: Mensaje 64 Tonto
+2025-05-22 12:05:55,083 - Missatge procesat i confirmat
+2025-05-22 12:05:55,093 - Missatges a la cua: 35, Instancies actives: 5
+2025-05-22 12:05:55,232 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 63 Nada'}
+2025-05-22 12:05:55,232 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:55,239 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 60 Tonto'}
+2025-05-22 12:05:55,239 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:55,241 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 62 Tortuga'}
+2025-05-22 12:05:55,241 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:55,246 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 61 Bobo'}
+2025-05-22 12:05:55,246 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:55,247 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 64 Tonto'}
+2025-05-22 12:05:55,248 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:56,094 - Missatges a la cua: 35, Instancies actives: 0
+2025-05-22 12:05:56,095 - Missatge rebut: Mensaje 65 Bobo
+2025-05-22 12:05:56,095 - Missatge procesat i confirmat
+2025-05-22 12:05:56,097 - Missatges a la cua: 34, Instancies actives: 1
+2025-05-22 12:05:56,097 - Missatge rebut: Mensaje 66 Tortuga
+2025-05-22 12:05:56,098 - Missatge procesat i confirmat
+2025-05-22 12:05:56,099 - Missatges a la cua: 33, Instancies actives: 2
+2025-05-22 12:05:56,100 - Missatge rebut: Mensaje 67 Nada
+2025-05-22 12:05:56,100 - Missatge procesat i confirmat
+2025-05-22 12:05:56,110 - Missatges a la cua: 32, Instancies actives: 3
+2025-05-22 12:05:56,111 - Missatge rebut: Mensaje 68 Tonto
+2025-05-22 12:05:56,112 - Missatge procesat i confirmat
+2025-05-22 12:05:56,113 - Missatges a la cua: 31, Instancies actives: 4
+2025-05-22 12:05:56,114 - Missatge rebut: Mensaje 69 Bobo
+2025-05-22 12:05:56,121 - Missatge procesat i confirmat
+2025-05-22 12:05:56,125 - Missatges a la cua: 30, Instancies actives: 5
+2025-05-22 12:05:56,257 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 65 Bobo'}
+2025-05-22 12:05:56,257 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:56,273 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 68 Tonto'}
+2025-05-22 12:05:56,273 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:56,275 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 66 Tortuga'}
+2025-05-22 12:05:56,276 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:56,281 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 67 Nada'}
+2025-05-22 12:05:56,281 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:56,293 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 69 Bobo'}
+2025-05-22 12:05:56,293 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:57,126 - Missatges a la cua: 30, Instancies actives: 0
+2025-05-22 12:05:57,127 - Missatge rebut: Mensaje 70 Tortuga
+2025-05-22 12:05:57,127 - Missatge procesat i confirmat
+2025-05-22 12:05:57,129 - Missatges a la cua: 29, Instancies actives: 1
+2025-05-22 12:05:57,133 - Missatge rebut: Mensaje 71 Nada
+2025-05-22 12:05:57,135 - Missatge procesat i confirmat
+2025-05-22 12:05:57,135 - Missatges a la cua: 28, Instancies actives: 2
+2025-05-22 12:05:57,136 - Missatge rebut: Mensaje 72 Tonto
+2025-05-22 12:05:57,136 - Missatge procesat i confirmat
+2025-05-22 12:05:57,141 - Missatges a la cua: 27, Instancies actives: 3
+2025-05-22 12:05:57,142 - Missatge rebut: Mensaje 73 Bobo
+2025-05-22 12:05:57,142 - Missatge procesat i confirmat
+2025-05-22 12:05:57,144 - Missatges a la cua: 26, Instancies actives: 4
+2025-05-22 12:05:57,146 - Missatge rebut: Mensaje 74 Tortuga
+2025-05-22 12:05:57,149 - Missatge procesat i confirmat
+2025-05-22 12:05:57,153 - Missatges a la cua: 25, Instancies actives: 5
+2025-05-22 12:05:57,304 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 74 Tortuga'}
+2025-05-22 12:05:57,305 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:57,306 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 70 Tortuga'}
+2025-05-22 12:05:57,306 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:57,311 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 71 Nada'}
+2025-05-22 12:05:57,311 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:57,313 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 73 Bobo'}
+2025-05-22 12:05:57,313 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:57,316 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 72 Tonto'}
+2025-05-22 12:05:57,316 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:58,154 - Missatges a la cua: 25, Instancies actives: 0
+2025-05-22 12:05:58,155 - Missatge rebut: Mensaje 75 Nada
+2025-05-22 12:05:58,155 - Missatge procesat i confirmat
+2025-05-22 12:05:58,157 - Missatges a la cua: 24, Instancies actives: 1
+2025-05-22 12:05:58,158 - Missatge rebut: Mensaje 76 Tonto
+2025-05-22 12:05:58,158 - Missatge procesat i confirmat
+2025-05-22 12:05:58,159 - Missatges a la cua: 23, Instancies actives: 2
+2025-05-22 12:05:58,161 - Missatge rebut: Mensaje 77 Bobo
+2025-05-22 12:05:58,163 - Missatge procesat i confirmat
+2025-05-22 12:05:58,164 - Missatges a la cua: 22, Instancies actives: 3
+2025-05-22 12:05:58,165 - Missatge rebut: Mensaje 78 Tortuga
+2025-05-22 12:05:58,167 - Missatge procesat i confirmat
+2025-05-22 12:05:58,177 - Missatges a la cua: 21, Instancies actives: 4
+2025-05-22 12:05:58,178 - Missatge rebut: Mensaje 79 Nada
+2025-05-22 12:05:58,183 - Missatge procesat i confirmat
+2025-05-22 12:05:58,191 - Missatges a la cua: 20, Instancies actives: 5
+2025-05-22 12:05:58,316 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 78 Tortuga'}
+2025-05-22 12:05:58,316 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:58,323 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 75 Nada'}
+2025-05-22 12:05:58,323 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:58,336 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 79 Nada'}
+2025-05-22 12:05:58,336 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:58,339 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 77 Bobo'}
+2025-05-22 12:05:58,339 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:58,345 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 76 Tonto'}
+2025-05-22 12:05:58,345 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:05:59,193 - Missatges a la cua: 20, Instancies actives: 0
+2025-05-22 12:05:59,194 - Missatge rebut: Mensaje 80 Tonto
+2025-05-22 12:05:59,195 - Missatge procesat i confirmat
+2025-05-22 12:05:59,196 - Missatges a la cua: 19, Instancies actives: 1
+2025-05-22 12:05:59,196 - Missatge rebut: Mensaje 81 Bobo
+2025-05-22 12:05:59,197 - Missatge procesat i confirmat
+2025-05-22 12:05:59,202 - Missatges a la cua: 18, Instancies actives: 2
+2025-05-22 12:05:59,203 - Missatge rebut: Mensaje 82 Tortuga
+2025-05-22 12:05:59,203 - Missatge procesat i confirmat
+2025-05-22 12:05:59,205 - Missatges a la cua: 17, Instancies actives: 3
+2025-05-22 12:05:59,209 - Missatge rebut: Mensaje 83 Nada
+2025-05-22 12:05:59,209 - Missatge procesat i confirmat
+2025-05-22 12:05:59,211 - Missatges a la cua: 16, Instancies actives: 4
+2025-05-22 12:05:59,217 - Missatge rebut: Mensaje 84 Tonto
+2025-05-22 12:05:59,219 - Missatge procesat i confirmat
+2025-05-22 12:05:59,219 - Missatges a la cua: 15, Instancies actives: 5
+2025-05-22 12:05:59,366 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 84 Tonto'}
+2025-05-22 12:05:59,366 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:05:59,367 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 80 Tonto'}
+2025-05-22 12:05:59,367 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:05:59,373 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 82 Tortuga'}
+2025-05-22 12:05:59,373 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:05:59,378 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 81 Bobo'}
+2025-05-22 12:05:59,378 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:05:59,383 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 83 Nada'}
+2025-05-22 12:05:59,384 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:06:00,220 - Missatges a la cua: 15, Instancies actives: 0
+2025-05-22 12:06:00,221 - Missatge rebut: Mensaje 85 Bobo
+2025-05-22 12:06:00,221 - Missatge procesat i confirmat
+2025-05-22 12:06:00,223 - Missatges a la cua: 14, Instancies actives: 1
+2025-05-22 12:06:00,223 - Missatge rebut: Mensaje 86 Tortuga
+2025-05-22 12:06:00,223 - Missatge procesat i confirmat
+2025-05-22 12:06:00,224 - Missatges a la cua: 13, Instancies actives: 2
+2025-05-22 12:06:00,225 - Missatge rebut: Mensaje 87 Nada
+2025-05-22 12:06:00,225 - Missatge procesat i confirmat
+2025-05-22 12:06:00,230 - Missatges a la cua: 12, Instancies actives: 3
+2025-05-22 12:06:00,233 - Missatge rebut: Mensaje 88 Tonto
+2025-05-22 12:06:00,234 - Missatge procesat i confirmat
+2025-05-22 12:06:00,235 - Missatges a la cua: 11, Instancies actives: 4
+2025-05-22 12:06:00,236 - Missatge rebut: Mensaje 89 Bobo
+2025-05-22 12:06:00,245 - Missatge procesat i confirmat
+2025-05-22 12:06:00,246 - Missatges a la cua: 10, Instancies actives: 5
+2025-05-22 12:06:00,385 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 89 Bobo'}
+2025-05-22 12:06:00,385 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:06:00,394 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 85 Bobo'}
+2025-05-22 12:06:00,394 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:06:00,397 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 88 Tonto'}
+2025-05-22 12:06:00,397 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:06:00,400 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 87 Nada'}
+2025-05-22 12:06:00,400 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:06:00,420 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 86 Tortuga'}
+2025-05-22 12:06:00,420 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:06:01,247 - Missatges a la cua: 10, Instancies actives: 0
+2025-05-22 12:06:01,248 - Missatge rebut: Mensaje 90 Tortuga
+2025-05-22 12:06:01,249 - Missatge procesat i confirmat
+2025-05-22 12:06:01,250 - Missatges a la cua: 9, Instancies actives: 1
+2025-05-22 12:06:01,250 - Missatge rebut: Mensaje 91 Nada
+2025-05-22 12:06:01,253 - Missatge procesat i confirmat
+2025-05-22 12:06:01,257 - Missatges a la cua: 8, Instancies actives: 2
+2025-05-22 12:06:01,258 - Missatge rebut: Mensaje 92 Tonto
+2025-05-22 12:06:01,258 - Missatge procesat i confirmat
+2025-05-22 12:06:01,262 - Missatges a la cua: 7, Instancies actives: 3
+2025-05-22 12:06:01,263 - Missatge rebut: Mensaje 93 Bobo
+2025-05-22 12:06:01,265 - Missatge procesat i confirmat
+2025-05-22 12:06:01,269 - Missatges a la cua: 6, Instancies actives: 4
+2025-05-22 12:06:01,270 - Missatge rebut: Mensaje 94 Tortuga
+2025-05-22 12:06:01,271 - Missatge procesat i confirmat
+2025-05-22 12:06:01,289 - Missatges a la cua: 5, Instancies actives: 5
+2025-05-22 12:06:01,430 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 93 Bobo'}
+2025-05-22 12:06:01,430 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:06:01,431 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 90 Tortuga'}
+2025-05-22 12:06:01,431 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:06:01,433 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 94 Tortuga'}
+2025-05-22 12:06:01,434 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:06:01,434 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 91 Nada'}
+2025-05-22 12:06:01,434 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:06:01,445 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 92 Tonto'}
+2025-05-22 12:06:01,445 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:06:02,291 - Missatges a la cua: 5, Instancies actives: 0
+2025-05-22 12:06:02,291 - Missatge rebut: Mensaje 95 Nada
+2025-05-22 12:06:02,292 - Missatge procesat i confirmat
+2025-05-22 12:06:02,293 - Missatges a la cua: 4, Instancies actives: 1
+2025-05-22 12:06:02,294 - Missatge rebut: Mensaje 96 Tonto
+2025-05-22 12:06:02,294 - Missatge procesat i confirmat
+2025-05-22 12:06:02,298 - Missatges a la cua: 3, Instancies actives: 2
+2025-05-22 12:06:02,298 - Missatge rebut: Mensaje 97 Bobo
+2025-05-22 12:06:02,299 - Missatge procesat i confirmat
+2025-05-22 12:06:02,301 - Missatges a la cua: 2, Instancies actives: 3
+2025-05-22 12:06:02,302 - Missatge rebut: Mensaje 98 Tortuga
+2025-05-22 12:06:02,306 - Missatge procesat i confirmat
+2025-05-22 12:06:02,309 - Missatges a la cua: 1, Instancies actives: 4
+2025-05-22 12:06:02,317 - Missatge rebut: Mensaje 99 Nada
+2025-05-22 12:06:02,318 - Missatge procesat i confirmat
+2025-05-22 12:06:02,329 - Missatges a la cua: 0, Instancies actives: 5
+2025-05-22 12:06:02,467 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 97 Bobo'}
+2025-05-22 12:06:02,467 - Worker finalitzat. Instancies actives: 4
+2025-05-22 12:06:02,474 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 99 Nada'}
+2025-05-22 12:06:02,474 - Worker finalitzat. Instancies actives: 3
+2025-05-22 12:06:02,483 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 96 Tonto'}
+2025-05-22 12:06:02,483 - Worker finalitzat. Instancies actives: 2
+2025-05-22 12:06:02,486 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 95 Nada'}
+2025-05-22 12:06:02,486 - Worker finalitzat. Instancies actives: 1
+2025-05-22 12:06:02,569 - Lambda 'lambda_insult_filter' invocada amb payload: {'mensaje_original': 'Mensaje 98 Tortuga'}
+2025-05-22 12:06:02,569 - Worker finalitzat. Instancies actives: 0
+2025-05-22 12:06:03,331 - Missatges a la cua: 0, Instancies actives: 0
+2025-05-22 12:06:04,332 - Missatges a la cua: 0, Instancies actives: 0
+2025-05-22 12:06:05,333 - Missatges a la cua: 0, Instancies actives: 0
+2025-05-22 12:06:06,334 - Missatges a la cua: 0, Instancies actives: 0
+2025-05-22 12:06:07,335 - Missatges a la cua: 0, Instancies actives: 0
+2025-05-22 12:06:08,337 - Missatges a la cua: 0, Instancies actives: 0
+2025-05-22 12:06:08,795 - Interromput. Tancant stream...
+2025-05-22 12:06:08,796 - Closing connection (200): Normal shutdown
+2025-05-22 12:06:08,796 - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9d8365ee50> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>>
+2025-05-22 12:06:08,797 - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9d8365ee50> params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>>
+2025-05-22 12:06:08,798 - Closing connection (200): 'Normal shutdown'
+2025-05-22 12:06:08,798 - Aborting transport connection: state=1; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 59224), raddr=('44.201.248.130', 5672)>
+2025-05-22 12:06:08,798 - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 59224), raddr=('44.201.248.130', 5672)>
+2025-05-22 12:06:08,798 - Deactivating transport: state=1; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 59224), raddr=('44.201.248.130', 5672)>
+2025-05-22 12:06:08,798 - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2025-05-22 12:06:08,798 - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2025-05-22 12:06:08,798 - Closing transport socket and unlinking: state=3; <socket.socket fd=8, family=2, type=1, proto=6, laddr=('172.31.83.183', 59224), raddr=('44.201.248.130', 5672)>
+2025-05-22 12:06:08,799 - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=44.201.248.130 port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2025-05-22 12:06:08,799 - Connexio a RabbitMQ tancada
